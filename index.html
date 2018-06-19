@@ -53,7 +53,7 @@
                             <ul class="fragment">
                                 <li> The hardware </li>
                                 <li>
-                                    Binary logic and algorithms: 010+010 = 100
+                                    Binary logic and a simple algorithm
                                 </li>
                                 <li>
                                     Physical and practical limits
@@ -135,49 +135,49 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                                <tr class="fragment">
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td><b>0</b></td>
                                 </tr>
-                                <tr>
+                                <tr class="fragment">
                                     <td>0</td>
                                     <td>0</td>
                                     <td>1</td>
                                     <td><b>1</b></td>
                                 </tr>
-                                <tr>
+                                <tr class="fragment">
                                     <td>0</td>
                                     <td>1</td>
                                     <td>0</td>
                                     <td><b>2</b></td>
                                 </tr>
-                                <tr>
+                                <tr class="fragment">
                                     <td>0</td>
                                     <td>1</td>
                                     <td>1</td>
                                     <td><b>3</b></td>
                                 </tr>
-                                <tr>
+                                <tr class="fragment">
                                     <td>1</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td><b>4</b></td>
                                 </tr>
-                                <tr>
+                                <tr class="fragment">
                                     <td>1</td>
                                     <td>0</td>
                                     <td>1</td>
                                     <td><b>5</b></td>
                                 </tr>
-                                <tr>
+                                <tr class="fragment">
                                     <td>1</td>
                                     <td>1</td>
                                     <td>0</td>
                                     <td><b>6</b></td>
                                 </tr>
-                                <tr>
+                                <tr class="fragment">
                                     <td>1</td>
                                     <td>1</td>
                                     <td>1</td>
@@ -190,6 +190,87 @@
                 <section id='half-adder'>
                     <h3> adding two bits </h3>
 
+
+                    <div style="display:flex; align-items: center;">
+                        <img class="plain" style="height: 10em; margin-left: auto; margin-right: 5%;"
+                            src="./figures/half_adder.svg"> </img>
+
+                        <div style="font-size: 0.8em; width: 48%; margin-right: auto; margin-left: 5%;">
+                            <table>
+                                <tr>
+                                    <th colspan="2"><strong>Inputs</strong></th>
+                                    <th colspan="2"><strong>Outputs</strong></th>
+                                </tr>
+                                <tr>
+                                    <th><b>A</b></th>
+                                    <th><b>B</b></th>
+                                    <th><b>CARRY</b></th>
+                                    <th><b>SUM</b></th>
+                                </tr>
+                                <tr class="fragment">
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="fragment">
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr class="fragment">
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr class="fragment">
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <p class="fragment">
+                        <strong>Note:</strong> Adding two single bit numbers produced a 2-bit output.
+                    </p>
+
+                </section>
+
+                <section id='full-adder'>
+                    <h3> adding numbers! </h3>
+                    <p style="font-size: 0.8em">
+                        Combine half-adders into full-adders, which include a CARRY IN line.
+                    </p>
+                    <div style="display:flex; align-items: center;">
+                        <img class="plain fragment" style="width: 25%; margin-left: auto; margin-right: 5%;"
+                            src="./figures/full_adder.svg"> </img>
+                        <img class="plain" style="width: 25%; margin-left: 5%; margin-right: 5%;"
+                            src="./figures/full_adder.svg"> </img>
+                        <img class="plain fragment" style="width: 25%; margin-right: auto; margin-left: 5%;"
+                            src="./figures/full_adder.svg"> </img>
+                    </div>
+
+                    <p class="fragment">
+                        <strong>Note:</strong> Adding two single bit numbers produced a 2-bit output.
+                    </p>
+
+                </section>
+
+                <section id='addition'>
+                    <h3>Finally, we can add some real numbers!</h3>
+                    <p>
+                        <strong>INPUTS: </strong> A = 2 (or 010), B = 3 (or 011)
+                    </p>
+                    <img class="plain fragment" style="width: 75%; margin-top: 1em; margin-bottom: 1em" src="./figures/addition.svg"> </img>
+                    <p class="fragment">
+                        <strong>OUTPUT: </strong> S = 5 (or 101)
+                    </p>
                 </section>
 
                 <!-- CONCLUSION -->

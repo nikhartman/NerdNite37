@@ -182,13 +182,13 @@
 
 .reveal table th,
 .reveal table td {
-  text-align: left;
+  text-align: center;
   padding: 0.2em 0.5em 0.2em 0.5em;
   border-bottom: 1px solid; }
 
-.reveal table th[align="center"],
-.reveal table td[align="center"] {
-  text-align: center; }
+.reveal table th[align="left"],
+.reveal table td[align="left"] {
+  text-align: left; }
 
 .reveal table th[align="right"],
 .reveal table td[align="right"] {
