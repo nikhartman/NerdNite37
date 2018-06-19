@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>MM2018</title>
+		<title>NERD NITE!</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/league.css">
@@ -28,384 +28,62 @@
 
                 <!-- INTRO -->
 
-                <section id="title">
-					<h2> Direct Entropy Measurement in a Mesoscopic Quantum System </h2>
-                    <img src="figures/device_edited.png"> </img>
-					<p style="font-style: italic; font-size: 0.8em">
-                        <span data-fragment-index=1 class="fragment highlight-teal"> Nikolaus Hartman </span>,
-                        Christian Olsen, Silvia Folk, Mohammad Samani,
-                        Saeed Fallahi, Geoffrey C. Gardner,
-                        <span data-fragment-index=3 class="fragment highlight-teal"> Michael Manfra </span>,
-                        and <span data-fragment-index=2 class="fragment highlight-teal"> Joshua Folk </span> <br>
+                <section  id="title" data-background-image="./figures/ucsb_qubit.jpg">
+					<h1> Quantum Computing </h1>
+                    <p style="font-size: 1em;">
+                        ... wait a minute. What is a classical computer, anyway?
+                    </p>
+					<p style="font-size: 1.2em">
+                        <strong> Nik Hartman, PhD </strong> <br> <br />
+                        <span style="font-size: 0.7em"> https://nikhartman.github.io/nn_Jun2018 </span>
 					</p>
                     <p>
-                        APS March Meeting -- Session H15<br>
-                        March 5th, 2018
+                        Nerd Nite YVR<br>
+                        June 20th, 2018
                     </p>
 				</section>
 
-                <section id="all-about-entropy">
-                    <section id="why-entropy">
-                        <h3>
-                            statistics of particles identified
-                            through thermodynamic measurements
-                        </h3>
-                        <p>
-                            Electrons and quasiparticles with strong interactions and non-trivial topology
-                            often have statistical properties that distinguish them from fermonic and bosonic particles.
-                        </p>
-                        <p class="fragment"> Entropy measurements are common in bulk crystals (mm scale)
-                            through <strong> heat capacity </strong> or <strong> magnetization </strong> measurements
-                        </p>
-                    </section>
+                <section  id="outline">
+					<!-- even though I don't love outlines
+                    I want you to keep this in your head throughout
+                    the talk -->
 
-                    <section id="majorana">
-                        <h3> Identifying Majorana bound state </h3>
-                        <ul>
-                            <li>
-                                Majorana bound states in semiconductor-superconductor systems.
-                                <ul>
-                                    <li style="font-style: italic;"> identify non-Abelian Majorana mode by non-integer values of $e^{S/k_B}$ </li>
-                                    <li style="font-style: italic;">
-                                         S. Smirnov, Physical Review B 92, 1 (2015).
-                                     </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </section>
-
-                    <section id="two-ch-kondo">
-                        <h3> Measuring 2CK entanglement entropy </h3>
-                        <ul>
-                            <li>
-                                Non-trivial entanglement structure in 2-channel Kondo model.
-                                <ul>
-                                    <li style="font-style: italic;"> 2CK state has $S = \frac{1}{2} k_B \ln{2}$
-                                        different from both 1CK ($S = 0$) and unscreened spin-1/2 ($S = k_B \ln{2}$)
-                                    </li>
-                                    <li style="font-style: italic;">
-                                         B. Alkurtass et al., Physical Review B 93, 1 (2016).
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </section>
-                </section>
-
-                <section id="cooper-stern">
-                    <h3> Cooper and Stern, PRL 102, 2009 </h3>
-
-                    <img style="height: 5em" src="figures/stern_cooper_screenshot.png"> </img>
-
-                    <p class = "fragment">
-                        $\left(\frac{\partial \mu}{\partial T}\right)_{p,n}
-                            = -\left(\frac{\partial s}{\partial n}\right)_{p,T}$
-                    </p>
-                    <ul class="fragment">
-                        <li> We know how to control and measure $\delta \mu$ and $\delta T$! </li>
-                        <li> Look for discontinuity in $\partial s/ \partial n_{qp}$ </li>
-                    </ul>
-                </section>
-
-                <section id="mohammad">
-                    <h3> Samani, PhD Thesis (Folk lab), 2017 </h3>
-                    <img style="height: 6em" src="figures/mohammad_device.png"> </img>
                     <ul>
-                        <li> Measure $\delta \mu$ using an SET capacitively-coupled to
-                            the 2DEG while oscillating $\delta T$ through Joule heater
-                        </li>
+                        <li> <strong>How we compute in 2018</strong> </li>
+                            <ul class="fragment">
+                                <li> The hardware </li>
+                                <li>
+                                    Binary logic and algorithms: 010+010 = 100
+                                </li>
+                                <li>
+                                    Physical and practical limits to classical computing
+                                </li>
+
+                            </ul>
+                        <br />
+                        <li class="fragment"> <strong>Quantum Computing</strong> </li>
+                        <ul class="fragment">
+                            <li> <em> Simulating Physics with Computers </em> </li>
+                            <li> Single quantum bit and superposition </li>
+                            <li>
+                                Multiple quantum bits and entanglement
+                            </li>
+                            <li>
+                                Literally, the simplest algorithm I could find
+                            </li>
+                        </ul>
                     </ul>
-                    <p class="fragment">
-                        <strong> Negative result: </strong>
-                        No evidence of quasiparticle entropy in $\nu = 5/2$ state.
-                    </p>
-                </section>
 
-                <section id="ben-shach">
-                    <h3> Ben-Shach et al., PRL 110, 2013</h3>
-                    <img style="width: 50%" src="figures/ben-shach_fig1.png"> </img>
-                    <ul style="font-size: 0.8em;">
-                        <li> Charging spectrum of single particle addition energies, $\mu_N$, in localized state </li>
-                        <li> Coulomb blockade peak positions move with $T$ depending on $\Delta S$ </li>
-                    </ul>
-                    <p class="fragment">
-                        $\left(\frac{\partial \mu}{\partial T}\right)_{p,N}
-                        = -\left(\frac{\partial S}{\partial N}\right)_{p,T}
-                        \Rightarrow \delta \mu_N = -(\Delta S_{N-1 \rightarrow N}) \delta T$
-                    </p>
-                </section>
+				</section>
 
-                <!-- SPIN ENTROPY EXPERIMENT -->
 
-                <section id="our-device">
-                    <section id="device-design">
-                        <h3> entropy of localized spins in a few-electron quantum dot </h3>
-                        <img style="width: 90%;" src="figures/gaas_device.png"> </img>
-                    </section>
 
-                    <section id="wafer-info">
-                        <h3> 2DEG characterization (Manfra Lab) </h3>
-                        <img style="width: 70%;" src="figures/11-12-14_1a.png"> </img>
-                    </section>
-                </section>
-
-                <section id="charge-sensor">
-                    <h3> Charge Sensor Response </h3>
-
-                    <div style="display:flex; align-items: center;">
-                        <div style="text-align: left; width: 48%; margin-left: auto; margin-right: 2%; font-size: 0.8em">
-                            <p> <strong>At $V_{mid}$: </strong><br> $P(N-1) = P(N)$ <br>
-                                $\Gamma_{in} = \Gamma_{out}$
-                            </p>
-                            <p> <strong> Two things happen when $T$ changes: </strong></p>
-                            <ol>
-                                <li> Transition width broadens </li>
-                                <li> $V_{mid}$ shifts if $\Delta S_{N-1 \rightarrow N} \neq 0$ </li>
-                            </ol>
-                        </div>
-
-                        <img style="height: 7em; margin-right: auto; margin-left: 2%;"
-                            src="figures/single_sensor_fit.png"> </img>
-                    </div>
-
-                    <p style="margin-top: 1em" class="fragment">
-                        $G_{sens}(V_p,T) \sim \tanh\left(\frac{\alpha (V_p - V_{mid}(T))}{2 k_B T}\right)$
-                    </p>
-                </section>
-
-                <section id="qualitative-entropy">
-                    <h3> Seeing Entropy Qualitatively in $\delta G_{sens}$ </h3>
-                    <div style="text-align: center">
-                        <img style="height: 6em; margin-right: 0.25em; margin-left: auto; margin-bottom: 0.1em;"
-                            src="figures/g_fake_zero-dS.png"> </img>
-                        <img class="fragment" data-fragment-index=2 style="height: 6em; margin-right: auto; margin-left: 0.25em; margin-bottom: 0.1em;"
-                            src="figures/g_fake_non-zero-dS.png"> </img>
-                    </div>
-                    <div style="text-align: center">
-                        <img class="fragment" data-fragment-index=1 style="height: 6em; margin-right: 0.25em; margin-left: auto;"
-                            src="figures/dg_fake_zero-dS.png"> </img>
-                        <img class="fragment" data-fragment-index=3 style="height: 6em; margin-right: auto; margin-left: 0.25em;"
-                            src="figures/dg_fake_non-zero-dS.png"> </img>
-                    </div>
-                </section>
-
-                <section id="fitting-dS">
-                    <h3> Quantitative Measurement </h3>
-                    <ul style="font-size: 0.8em;">
-                        <li>Oscillate $\delta T$ with AC I<sub>heat</sub> </li>
-                        <li>Measure $\delta G_{sens}$ with lock-in amplifier </li>
-                    </ul>
-                    <img  style="height: 7em" src="figures/single_dg_no-fit.png"> </img>
-                    <p class="fragment" style="font-size: 0.8em;">
-                        $\delta G_{sens}(V_p, T) = \frac{dG_{sens}}{dT} \delta T$
-                    </p>
-                    <p class="fragment" style="font-size: 0.8em;">
-                        $\delta G_{sens}(V_p, T) \sim -\delta T
-                        \left[ \frac{\alpha(V_p - V_{mid}(T))}{2 k_B T} - \frac{1}{2}\color{#13DAEC}{\frac{\Delta S}{k_B}} \right]
-                        \cosh^{-2}\left(\frac{\alpha(V_p - V_{mid}(T))}{2 k_B T}\right)$
-                    </p>
-                </section>
-
-                <section id="fitting-dS-cont">
-                    <h3> Quantitative Measurement </h3>
-                    <img style="height: 7em" src="figures/single_dg_fit.png"> </img>
-                    <p>
-                        Boltzmann entropy:&ensp;$S_1 = k_B \ln{d_1}$, <br>
-                         where $d_1=2$ is the degeneracy of the 1-electron state
-                    </p>
-                    <p>
-                        <strong> Best fit: </strong>&ensp;
-                        $\frac{\Delta S_{01}}{k_B} = 0.71 = (1.02 \pm 0.03) \ln{2}$
-                    </p>
-                </section>
-
-                <section id="we-did-it">
-                    <h2> single particle entropy! </h2>
-
-                    <div style="text-align: left;" class="fragment">
-                        <h3> why this worked </h3>
-                        <ol style="margin-left: 8%; margin-bottom: 1em;">
-                            <li> Fast $\delta T$ oscillations </li>
-                            <li> Non-invasive charge sensing </li>
-                            <li> Thermally broadened transition </li>
-                            <li> $k_B \delta T < \Delta$ </li>
-                        </ol>
-                        <span class="fragment" style="margin-top: 1em;">
-                            <h3> Not required </h3>
-                            <ol style="margin-left: 8%">
-                                <li> Exact $\delta T$ </li>
-                                <li> Gate voltage to energy conversion, $\alpha$ </li>
-                            </ol>
-                        </span>
-                    </div>
-                </section>
-
-                <section id="dS-dT">
-                    <section id="dT-dependence">
-                        <h3> $\Delta S$ independent of $\delta T$ </h3>
-                        <img style="width: 90%;" src="figures/dS-vs-dT.png"> </img>
-                    </section>
-
-                    <section id="param-calibration">
-                        <h3> determining $\alpha$ and $\delta T$ </h3>
-                        <div style="text-align: center">
-                            <img style="height: 7em; margin-right: 0.2em; margin-left: auto;"
-                                src="figures/alpha-cal.png"> </img>
-                            <img style="height: 7em; margin-right: auto; margin-left: 0.2em;"
-                                src="figures/dT-cal.png"> </img>
-                        </div>
-                    </section>
-                </section>
-
-                <section id="really">
-                    <h2> Is the measured parameter really <strong> entropy </strong>? </h2>
-                </section>
-
-                <section id="first-third">
-                    <h3> spin-0 to spin-1/2 transitions with in-plane field </h3>
-                    <img style="width: 65%; margin-bottom: 0.1em" src="figures/one-three_no-fits.png"> </img>
-                    <img style="width: 65%; margin-top: 0.1dm" src="figures/dG-cuts_01.png"> </img>
-                </section>
-
-                <section id="first-third-g">
-                    <section id='first-third-fits'>
-                        <h3> spin-0 to spin-1/2 transitions with in-plane field </h3>
-                        <img style="width: 65%; margin-bottom: 0.1em" src="figures/one-three_fits.png"> </img>
-                        <p>
-                            $S = k_B \sum_{-,+} p_{i}(B_\parallel, T) \ln{ p_{i}(B_\parallel,T) }$
-                            <br>
-                            &ensp;with&ensp;$p_{\pm}(B_\parallel, T) = (1+ e^{\mp \frac{g\mu_B B_{\parallel}}{k_B T}})^{-1}$
-                        </p>
-                    </section>
-
-                    <section id='first-transport'>
-                        <h3> bias spectroscopy of 0$\rightarrow$1 transition </h3>
-                        <img style="width: 80%;" src="figures/transport-spec_01.png"> </img>
-                    </section>
-                </section>
-
-                <section id="second-g">
-                    <section id="second-electron">
-                        <h3> changing the ground state </h3>
-                        <img style="width: 70%; margin-bottom: 0.1em" src="figures/two_fit.png"> </img>
-                        <p>
-                            $S = k_B \sum_{-,+,\mathcal{S},\mathcal{T_+}} p_{i}(B_\parallel, T) \ln{ p_{i}(B_\parallel,T) }$
-                            <br>
-                            &ensp;with&ensp;$p_{\mathcal{S}/\mathcal{T_+}}(B_\parallel, T) = (1+ e^{\mp \frac{g\mu_B B_\parallel - \Delta_{ST}}{k_B T}})^{-1}$
-                        </p>
-                    </section>
-
-                    <section id='second-transport'>
-                        <h3> bias spectroscopy of 1$\rightarrow$2 transition </h3>
-                        <img style="width: 80%;" src="figures/transport-spec_12.png"> </img>
-                    </section>
-                </section>
+                <!-- CONCLUSION -->
 
                 <section id="conclusions" style="text-align: left;">
-
-                    <h3> <strong> Conclusions: </strong> </h3>
-
-                    <ul>
-                        <li> Developed a thermodynamic measurement of few-particle entropy </li>
-                        <li> Measured entropy of a few-electron system to 5% accuracy </li>
-                        <li> Confirmed results by investigating magnetic field behavior </li>
-                        <li> Obvious extensions of this work are to localized states with non-trivial statistics.</li>
-                    </ul>
-
-                    <div style="font-size: 0.8em">
-                        <p>
-                            This talk: <a href="https://nikhartman.github.io/mm2018"> https://nikhartman.github.io/mm2018 </a>
-                        </p>
-                        <p>
-                            Contact me: <a href="mailto:nik.hartman@gmail.com"> nik.hartman@gmail.com </a>
-                        </p>
-                    </div>
+                    <h2> Conclusion </h2>
+                    We learned about quantum computing... I hope.
                 </section>
-
-                <!-- <section id="moving-on">
-                    <h3> What is the simplest way to explore this proposal? </h3>
-                    <blockquote>
-                        &ldquo;[Local quasiparticle trap] spectra reflect the QP
-                        statistics just as <b>electronic dot</b> spectra reflect the spin and
-                        fermionic statistics of electrons &rdquo;
-                    </blockquote>
-                    <h4 style="text-align: right">
-                        <strong> Ben-Shach et al. </strong>
-                    </h4>
-                </section> -->
-
-                <!-- <section id="quasiparticle-measurement">
-                    <h3> Entropy to identify non-Abelian statistics </h3>
-                    <ul>
-                        <li>
-                            Moore-Read quasiparticles in $\nu = 5/2$ FQH state.
-                            <ul>
-                                <li style="font-style: italic;">
-                                    N. R. Cooper and A. Stern, Physical Review Letters 102, 176807 (2009).
-                                </li>
-                                <li style="font-style: italic;">
-                                    Discontinuity in $\partial S/ \partial N_{qp}$
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </section> -->
-
-                <!-- <section id="whats-hard-about-this">
-                    <h3> What is difficult here </h3>
-                    <div style="text-align: left">
-                        <p> Entropy measurements are common in bulk crystals (mm scale)
-                            through <strong> heat capacity </strong> or <strong> magnetization </strong> measurements </p>
-                        <p> Mesoscopic system heat capacity and magnetic moments are <strong> too small </strong> -- even in 2DEG Hall devices </p>
-                    <div>
-                    <p style="text-align: right" class="fragment"> ... Closer look at $\nu=5/2$ proposals for solution </p>
-                </section> -->
-
-                <!-- <section id="what-am-i-looking-for">
-                    <h3> experimental signature </h3>
-                    <img style="height: 8em;" src="figures/coulomb_blockade.png">
-                    <p style="font-size: 1.5em;">
-                        $\delta \mu_N = -(\Delta S_{N-1 \rightarrow N}) \delta T$
-                    </p>
-                    <p>
-                        Looking for oscillations in $\mu_N$ with $\delta T$ relative to $E_F$
-                    </p>
-                </section> -->
-
-                <!-- <section id="mohammad-2">
-                    <h3> Samani, PhD Thesis, 2017 </h3>
-                    <div style="text-align: center">
-                        <img style="height: 6.5em; margin-right: 0.1em; margin-left: auto; margin-bottom: 0.5em;"
-                            src="figures/SET-measurement-prediction.png"> </img>
-                        <img style="height: 6.5em; margin-right: auto; margin-left: 0.1em; margin-bottom: 0.5em;"
-                            src="figures/mohammad_main-result.png"> </img>
-                    </div>
-                    <p class="fragment">
-                        <strong> Negative result: </strong>
-                        Asymmetry of measured lineshape suggests $\Delta S \neq 0$.
-                        No change in signal across $\nu = 5/2$ state.
-                    </p>
-                </section> -->
-
-                <!-- <section id="venkatachalam">
-                    <h3> Venkatachalam et al., Nature 469, 2011 </h3>
-                    <img style="height: 5em" src="figures/venkatachalam_screenshot.png"> </img>
-
-                    <div style="display:flex; align-items: center;" class="fragment">
-                        <div style="text-align: left; width: 48%; margin-left: auto; margin-right: 2%;">
-                            <p>
-                                <strong>Experimental insight: </strong>
-                            </p>
-                            <ul style="font-size: 0.8em;">
-                                <li>$\delta \mu$ measurement made by coupling SET to localized quasiparticle states</li>
-                                <li>Measured $e^* = e/4$ in $5/2$ state</li>
-                            </ul>
-                        </div>
-
-                        <img style="height: 6em; margin-right: auto; margin-left: 2%;"
-                            src="figures/venkatachalam_device.png"> </img>
-                    </div>
-                </section> -->
 
 			</div>
 		</div>
@@ -422,7 +100,7 @@
                 progress: true,
                 history: true,
                 center: true,
-                slideNumber: false,
+                slideNumber: 'h.v',
                 transition: 'slide', // none/fade/slide/convex/concave/zoom
 
 				dependencies: [
