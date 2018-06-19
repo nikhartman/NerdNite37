@@ -56,15 +56,15 @@
                                     Binary logic and algorithms: 010+010 = 100
                                 </li>
                                 <li>
-                                    Physical and practical limits to classical computing
+                                    Physical and practical limits
                                 </li>
 
                             </ul>
                         <br />
                         <li class="fragment"> <strong>Quantum Computing</strong> </li>
                         <ul class="fragment">
-                            <li> <em> Simulating Physics with Computers </em> </li>
-                            <li> Single quantum bit and superposition </li>
+                            <li> How a quantum computer can help </li>
+                            <li> Single quantum bit and quantum superposition </li>
                             <li>
                                 Multiple quantum bits and entanglement
                             </li>
@@ -76,7 +76,121 @@
 
 				</section>
 
+                <section id="hardware_intro">
+                    <h3>Transistor-based Logic</h3>
+                    <p>
+                        All the computer hardware we know and love today is based on the <strong> semiconductor transistor </strong>.                   </p>
+                    </p>
+                </section>
 
+                <section id="semiconductor-1">
+                    <h3> Semi-conductors in a hurry! </h3>
+                    <img class="white" style="height: 6.5em; margin-bottom: 0.1em;" src="./figures/band_theory.png"> </img>
+                    <img class="white fragment" style="height: 6.5em; margin-top: 0..1em;" src="./figures/semi-conductor_bands.png"> </img>
+                </section>
+
+                <section id='mosfet'>
+                    <h3> Transistors = Semi-Conductor Juncitons </h3>
+                    <div style="text-align: center">
+                        <img class="white" style="width: 46%; margin-right: 0.5em; margin-left: auto; margin-bottom: 0.2em;"
+                            src="./figures/mosfet_3d.svg"> </img>
+                        <video loop class="fragment" data-autoplay style="width: 40%; margin-right: 0.5em; margin-left: auto; margin-bottom: 0.2em;">
+                            <source src="./figures/mosfet.webm" type="video/webm" >
+                        </video>
+                    </div>
+                    <span style="font-size: 1em">
+                        <p class="fragment">
+                            <strong> Binary logic! </strong>: channel open (1), channel closed (0)
+                        </p>
+                    </span>
+                </section>
+
+                <section id='logic'>
+                    <h3>
+                        Combine transistors to create logic gates
+                    </h3>
+                    <img class="white" style="width: 70%" src="./figures/logic_gates.jpeg"> </img>
+                    <ul>
+                        <li class="fragment">
+                            NAND gates are <strong> universal </strong>.
+                        </li>
+                        <li class="fragment">
+                            Combine two transistors for NAND gate. Combine NAND gates for all logical operations.
+                        </li>
+                        <li class="fragment">
+                            <strong> WE MADE A CLASSICAL COMPUTER! </strong>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id='counting'>
+                    <h3> Before we can add, we need to relearn counting </h3>
+                    <table style="font-size: 0.8em">
+                            <thead>
+                                <tr>
+                                    <td><strong>2^2</strong></td>
+                                    <td><strong>2^1</strong></td>
+                                    <td><strong>2^0</strong></td>
+                                    <td><strong>sum</strong></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td><b>0</b></td>
+                                </tr>
+                                <tr>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td><b>1</b></td>
+                                </tr>
+                                <tr>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td><b>2</b></td>
+                                </tr>
+                                <tr>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td><b>3</b></td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td><b>4</b></td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td><b>5</b></td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td><b>6</b></td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td><b>7</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </section>
+
+                <section id='half-adder'>
+                    <h3> adding two bits </h3>
+
+                </section>
 
                 <!-- CONCLUSION -->
 

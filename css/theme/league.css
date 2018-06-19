@@ -93,9 +93,9 @@
   max-width: 95%;
   max-height: 95%; }
 
-/* .reveal strong,
+/* .reveal strong, */
 .reveal b {
-  font-weight: bold; } */
+  font-weight: bold; }
 
 .reveal em {
   font-style: italic; }
@@ -245,6 +245,12 @@
   border: 0;
   background: rgba(1, 1, 1, 0.0);
   box-shadow: none; }
+
+.reveal section img.white {
+    margin: 15px 0px;
+    background: rgba(255, 255, 255, 0.90);
+    border: 4px solid #888;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal a img {
   -webkit-transition: all .15s linear;
