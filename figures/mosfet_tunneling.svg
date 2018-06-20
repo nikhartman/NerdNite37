@@ -5,10 +5,10 @@
 	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
 ]>
 <svg  version="1.1"
-	 id="svg2464" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:version="0.46" sodipodi:docname="n-Kanal-MOSFET (Schema).svg" sodipodi:version="0.32" inkscape:output_extension="org.inkscape.output.svg.inkscape"
+	 id="svg2464" inkscape:output_extension="org.inkscape.output.svg.inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:svg="http://www.w3.org/2000/svg" sodipodi:docname="n-Kanal-MOSFET (Schema).svg" inkscape:version="0.46" sodipodi:version="0.32" xmlns:cc="http://creativecommons.org/ns#"
 	 xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="1187" height="612.699" viewBox="-255.875 88.565 1187 612.699"
 	 overflow="visible" enable-background="new -255.875 88.565 1187 612.699" xml:space="preserve">
-<sodipodi:namedview  guidetolerance="10.0" gridtolerance="10.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" showgrid="false" inkscape:zoom="0.69" inkscape:cx="367.02899" inkscape:cy="550" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:current-layer="layer2" inkscape:window-width="1400" inkscape:window-height="964" inkscape:pageshadow="2" inkscape:pageopacity="0.0" objecttolerance="10.0" id="base" inkscape:guide-bbox="true" showguides="true">
+<sodipodi:namedview  pagecolor="#ffffff" inkscape:window-y="-4" inkscape:window-height="964" inkscape:window-x="-4" objecttolerance="10.0" inkscape:guide-bbox="true" id="base" gridtolerance="10.0" showguides="true" borderopacity="1.0" showgrid="false" inkscape:cy="550" guidetolerance="10.0" bordercolor="#666666" inkscape:cx="367.02899" inkscape:zoom="0.69" inkscape:pageshadow="2" inkscape:current-layer="layer2" inkscape:window-width="1400" inkscape:pageopacity="0.0">
 	</sodipodi:namedview>
 <rect id="rect2480" x="-254.875" y="675.264" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="925" height="25"/>
 <g id="g3343" transform="translate(-28,0)">
@@ -20,7 +20,7 @@
 	</polygon>
 	
 		<polygon id="rect3271" inkscape:transform-center-x="-130.00006" inkscape:transform-center-y="-130.00006" fill="#FFD7D7" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
-		958.125,129.765 698.125,352.916 698.125,674.764 958.125,451.614 	">
+		958.125,129.765 698.125,352.916 698.125,674.764 958.125,451.615 	">
 	</polygon>
 </g>
 <path id="rect3287" sodipodi:nodetypes="ccccc" fill="#FFD42A" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="
@@ -40,7 +40,7 @@
 <g id="g2466" transform="translate(122,0)">
 	<path id="rect2468" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="
 		M-226.875,363.764v26h168.976v-26H-226.875z"/>
-	<path id="rect2470" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="
+	<path id="rect2470" sodipodi:nodetypes="ccccc" fill="#FF0000" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="
 		M-26.875,163.765l-200,200h168.976l200-200H-26.875z"/>
 </g>
 <g id="g3309" transform="translate(-34,0)">
@@ -73,7 +73,7 @@
 	</polygon>
 </g>
 <polygon id="rect3273" inkscape:transform-center-x="-130.00006" inkscape:transform-center-y="-130.00006" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
-	930.125,427.317 670.125,676.323 670.125,700.264 930.125,451.259 ">
+	930.125,427.318 670.125,676.324 670.125,700.264 930.125,451.259 ">
 </polygon>
 <g id="g3314" transform="translate(-16,-40)">
 	
@@ -84,37 +84,38 @@
 		M508.125,189.578l-162,159.999v40l162-159.999V189.578z"/>
 </g>
 <path id="rect3348" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="M-140.312,389.641v57.156
-	c0,32.434,23.25,58.528,52.146,58.528h140.68c28.896,0,52.174-26.1,52.174-58.528v-57.156H-140.312L-140.312,389.641z"/>
+	c0,32.435,23.25,58.528,52.146,58.528h140.68c28.896,0,52.174-26.101,52.174-58.528v-57.156H-140.312L-140.312,389.641z"/>
 <path id="path3353" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="M307.688,389.641v57.156
-	c0,32.434,23.255,58.528,52.146,58.528h140.68c28.896,0,52.174-26.1,52.174-58.528v-57.156H307.688L307.688,389.641z"/>
+	c0,32.435,23.256,58.528,52.146,58.528h140.68c28.896,0,52.174-26.101,52.174-58.528v-57.156H307.688L307.688,389.641z"/>
 <circle fill="none" stroke="#000000" stroke-width="3" cx="-76.39" cy="423.368" r="12.75"/>
 <ellipse fill="none" stroke="#000000" stroke-width="3" cx="-2.144" cy="450.368" rx="13.499" ry="14.249"/>
 <circle fill="none" stroke="#000000" stroke-width="3" cx="-23.39" cy="416.368" r="12.75"/>
 <ellipse fill="none" stroke="#000000" stroke-width="3" cx="50.856" cy="443.368" rx="13.499" ry="14.249"/>
-<text transform="matrix(1 0 0 1 -79.918 430.03)" font-family="'Myriad-Roman'" font-size="24">-</text>
-<text transform="matrix(1 0 0 1 48.082 450.03)" font-family="'Myriad-Roman'" font-size="24">-</text>
-<text transform="matrix(1 0 0 1 -27.918 423.03)" font-family="'Myriad-Roman'" font-size="24">-</text>
-<text transform="matrix(1 0 0 1 -5.918 458.03)" font-family="'Myriad-Roman'" font-size="24">-</text>
+<text transform="matrix(1 0 0 1 -79.918 430.0306)" font-family="'Myriad-Roman'" font-size="24">-</text>
+<text transform="matrix(1 0 0 1 48.082 450.0306)" font-family="'Myriad-Roman'" font-size="24">-</text>
+<text transform="matrix(1 0 0 1 -27.918 423.0306)" font-family="'Myriad-Roman'" font-size="24">-</text>
+<text transform="matrix(1 0 0 1 -5.918 458.0306)" font-family="'Myriad-Roman'" font-size="24">-</text>
 <g>
 	<g>
-		<line fill="#FF0000" x1="289.334" y1="450.61" x2="123.843" y2="450.61"/>
-		<polygon fill="#FF0000" points="126.09,447.647 124.832,450.61 126.09,453.573 119.067,450.61 		"/>
-		<polygon fill="#FF0000" points="287.087,453.573 288.346,450.61 287.087,447.647 294.109,450.61 		"/>
+		<line fill="#FF0000" x1="289.334" y1="450.611" x2="123.843" y2="450.611"/>
+		<polygon fill="#FF0000" points="126.09,447.648 124.832,450.611 126.09,453.574 119.067,450.611 		"/>
+		<polygon fill="#FF0000" points="287.087,453.574 288.346,450.611 287.087,447.648 294.109,450.611 		"/>
 	</g>
 	<g>
 		
-			<line fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="bevel" x1="289.334" y1="450.61" x2="123.843" y2="450.61"/>
-		<polygon points="132.83,438.76 127.797,450.61 132.83,462.464 104.741,450.61 		"/>
-		<polygon points="280.347,462.46 285.379,450.61 280.347,438.757 308.436,450.61 		"/>
+			<line fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="bevel" x1="289.334" y1="450.611" x2="123.843" y2="450.611"/>
+		<polygon points="132.83,438.76 127.797,450.611 132.83,462.464 104.741,450.611 		"/>
+		<polygon points="280.347,462.46 285.379,450.611 280.347,438.757 308.436,450.611 		"/>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 146.1016 483.113)"><tspan x="0" y="0" font-family="'Lato-Regular'" font-size="32">Channel</tspan><tspan x="9.696" y="38.4" font-family="'Lato-Regular'" font-size="32">Length</tspan></text>
+<text transform="matrix(1 0 0 1 146.1016 483.1136)" font-family="'Lato-Regular'" font-size="32">Channel</text>
+<text transform="matrix(1 0 0 1 155.7974 521.513)" font-family="'Lato-Regular'" font-size="32">Length</text>
 <circle fill="none" stroke="#000000" stroke-width="3" cx="484.605" cy="434.368" r="12.75"/>
 <ellipse fill="none" stroke="#000000" stroke-width="3" cx="410.358" cy="461.368" rx="13.499" ry="14.249"/>
 <circle fill="none" stroke="#000000" stroke-width="3" cx="431.605" cy="427.368" r="12.75"/>
 <ellipse fill="none" stroke="#000000" stroke-width="3" cx="357.358" cy="454.368" rx="13.499" ry="14.249"/>
-<text transform="matrix(-1 0 0 1 488.1328 441.03)" font-family="'Myriad-Roman'" font-size="24">-</text>
-<text transform="matrix(-1 0 0 1 360.1328 461.03)" font-family="'Myriad-Roman'" font-size="24">-</text>
-<text transform="matrix(-1 0 0 1 436.1328 434.03)" font-family="'Myriad-Roman'" font-size="24">-</text>
-<text transform="matrix(-1 0 0 1 414.1328 469.03)" font-family="'Myriad-Roman'" font-size="24">-</text>
+<text transform="matrix(-1 0 0 1 488.1328 441.0306)" font-family="'Myriad-Roman'" font-size="24">-</text>
+<text transform="matrix(-1 0 0 1 360.1328 461.0306)" font-family="'Myriad-Roman'" font-size="24">-</text>
+<text transform="matrix(-1 0 0 1 436.1328 434.0306)" font-family="'Myriad-Roman'" font-size="24">-</text>
+<text transform="matrix(-1 0 0 1 414.1328 469.0306)" font-family="'Myriad-Roman'" font-size="24">-</text>
 </svg>
