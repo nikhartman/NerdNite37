@@ -1,0 +1,23 @@
+matthias troyer -- https://www.youtube.com/watch?v=zXZJvuI7nZE
+
+- first computers -- antikythera mechanism, babbage's difference engine (proposed), eniac (first electronic), taihu light (fastest today, 10^17 operations per second)
+- moore's law reaching a limit due to atomic size. at atomic size the world becomes quantum mechanical
+- may as well embrace it. opens up a whole new type of computing power
+- superposition explained through light based random number generator
+- classical and quantum bits explained in the normal way
+- followed by schrodinger's cat (i really want an alternative to this)
+- entanglement with two qubits (real reference with photons to space)
+- 1 qubit = perfect random numbers. 2 qubits = secure encryption. many qubits = super powerful 2^N
+- 38:00 discussion of simulating quantum bits with a classical machine
+- 41:00 shor's algorithm
+- 43:00 shor's algorithm factoring time
+- 45:00 applications of quantum simulators
+- 46:30 using quantum mechanics to simulate physics with feynmann "simulating physics with computers"
+- 49:00 nitrogen fixation application
+
+Trudeau on QC -- https://www.youtube.com/watch?v=8iZP4PvNTN4
+Response from a physicist -- https://www.washingtonpost.com/posteverything/wp/2016/04/18/actually-justin-trudeau-doesnt-get-quantum-computing/?noredirect=on&utm_term=.46c011fb54b6
+
+simulations
+-- nitrogen fixation (involves simulations of simple molecules like ammonia -- used in fertilizer production -- consumes a huge amount of the worlds energy
+-- 
