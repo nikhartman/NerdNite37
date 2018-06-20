@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1"
+	 id="svg2464" inkscape:output_extension="org.inkscape.output.svg.inkscape" inkscape:version="0.46" sodipodi:docname="n-Kanal-MOSFET (Schema).svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" sodipodi:version="0.32" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+	 xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="2674.877" height="3147.846" viewBox="-996.357 -1187.147 2674.877 3147.846"
+	 overflow="visible" enable-background="new -996.357 -1187.147 2674.877 3147.846" xml:space="preserve">
+<sodipodi:namedview  inkscape:window-width="1400" inkscape:cy="550" inkscape:window-height="964" inkscape:current-layer="layer2" inkscape:pageshadow="2" id="base" showguides="true" bordercolor="#666666" borderopacity="1.0" gridtolerance="10.0" showgrid="false" inkscape:cx="367.02899" inkscape:window-y="-4" inkscape:guide-bbox="true" inkscape:zoom="0.69" guidetolerance="10.0" inkscape:window-x="-4" inkscape:pageopacity="0.0" objecttolerance="10.0" pagecolor="#ffffff">
+	</sodipodi:namedview>
+<rect id="rect2480" x="-995.357" y="-241.494" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="925" height="25"/>
+<g id="g3343" transform="translate(-28,0)">
+	
+		<rect id="rect2478" x="-967.357" y="-563.844" fill="#FFEBEB" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="925" height="321.85"/>
+	
+		<polygon id="rect3285" inkscape:transform-center-x="-130.00001" inkscape:transform-center-y="-130.00001" fill="#FFE1E1" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		-967.357,-563.844 -42.357,-563.844 217.643,-786.993 -707.357,-786.993 	">
+	</polygon>
+	
+		<polygon id="rect3271" inkscape:transform-center-x="-130.00006" inkscape:transform-center-y="-130.00006" fill="#FFD7D7" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		217.643,-786.993 -42.357,-563.844 -42.357,-241.994 217.643,-465.144 	">
+	</polygon>
+</g>
+<path id="rect3287" sodipodi:nodetypes="ccccc" fill="#FFD42A" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="
+	M-715.357-726.993l-200,200h765l200-200H-715.357z"/>
+<g id="g3299" transform="translate(-28,0)">
+	
+		<rect id="rect3252" x="-967.357" y="-566.994" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="150" height="40"/>
+	
+		<polygon id="rect3254" inkscape:transform-center-x="-129.99999" inkscape:transform-center-y="-129.99999" fill="#A7BEDF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		-707.357,-826.993 -557.357,-826.993 -817.357,-566.994 -967.357,-566.994 	">
+	</polygon>
+	
+		<polygon id="rect3256" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		-557.357,-786.993 -817.357,-526.994 -817.357,-566.994 -557.357,-826.993 	">
+	</polygon>
+</g>
+<g id="g2466" transform="translate(122,0)">
+	<path id="rect2468" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="
+		M-967.357-552.994v26h168.976v-26H-967.357z"/>
+	
+		<path id="rect2470" sodipodi:nodetypes="ccccc" fill="#FF0000" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-767.357-752.993l-200,200h168.976l200-200H-767.357z"/>
+</g>
+<g id="g3309" transform="translate(-34,0)">
+	
+		<rect id="rect3277" x="-642.357" y="-567.193" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="280" height="40"/>
+	
+		<path id="rect3279" sodipodi:nodetypes="ccccc" fill="#A7BEDF" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-382.357-827.18l-260,259.999h280l260-259.999H-382.357z"/>
+	
+		<polygon id="rect3281" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		-102.357,-787.194 -362.357,-527.193 -362.357,-567.193 -102.357,-827.194 	">
+	</polygon>
+</g>
+<g id="g2476" transform="translate(570.8987,0)">
+	
+		<path id="path2478" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-967.358-552.994v26h176.031v-26H-967.358z"/>
+	
+		<path id="path2480" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-767.358-752.993l-200,200h175.741l200-200H-767.358z"/>
+</g>
+<g id="g3304" transform="translate(-28,0)">
+	
+		<rect id="rect3265" x="-192.357" y="-567.193" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="150" height="40"/>
+	
+		<polygon id="rect3267" inkscape:transform-center-x="-129.99999" inkscape:transform-center-y="-129.99999" fill="#A7BEDF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		67.643,-827.194 217.643,-827.194 -42.357,-567.193 -192.357,-567.193 	">
+	</polygon>
+	
+		<polygon id="rect3269" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		217.643,-787.194 -42.357,-527.193 -42.357,-567.193 217.643,-827.194 	">
+	</polygon>
+</g>
+<polygon id="rect3273" inkscape:transform-center-x="-130.00006" inkscape:transform-center-y="-130.00006" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+	189.643,-489.441 -70.357,-240.435 -70.357,-216.494 189.643,-465.5 ">
+</polygon>
+<g id="g3314" transform="translate(-16,-40)">
+	
+		<rect id="rect3316" x="-642.357" y="-567.193" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" width="248" height="40"/>
+	
+		<path id="path3318" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-480.357-727.18l-162,159.999h250l160-159.999H-480.357z"/>
+	
+		<path id="rect3320" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-232.357-727.18l-162,159.999v40l162-159.999V-727.18z"/>
+</g>
+<path id="rect3348" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="M-880.794-527.117v57.156
+	c0,32.434,23.25,58.529,52.146,58.529h140.68c28.896,0,52.174-26.1,52.174-58.529v-57.156H-880.794L-880.794-527.117z"/>
+<path id="path3353" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="M-432.795-527.117v57.156
+	c0,32.434,23.254,58.529,52.146,58.529h140.68c28.896,0,52.174-26.1,52.174-58.529v-57.156H-432.795L-432.795-527.117z"/>
+<path id="path3399" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M-451.25-684.421v-389.141"/>
+<path id="path3401" sodipodi:cx="523.73419" sodipodi:rx="15.822784" sodipodi:ry="15.822784" sodipodi:cy="986.18988" sodipodi:type="arc" fill="#FFFFFF" stroke="#000000" stroke-width="5" stroke-linejoin="bevel" d="
+	M-433.75-1091.228c0-9.665-7.835-17.5-17.5-17.5s-17.5,7.835-17.5,17.5s7.835,17.5,17.5,17.5S-433.75-1081.563-433.75-1091.228z"/>
+<path id="path3405" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M-179.25-672.968v-218.124"/>
+<g id="g3409" transform="matrix(1,0,0,-1,-131.06329,1112.6469)">
+	<path id="path3411" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M-518.186,1785.614v218.124"/>
+	
+		<path id="path3413" sodipodi:cx="523.73419" sodipodi:rx="15.822784" sodipodi:ry="15.822784" sodipodi:cy="986.18988" sodipodi:type="arc" fill="#FF0000" stroke="#000000" stroke-width="6.3291" stroke-linejoin="bevel" d="
+		M-500.686,2021.404c0,9.665-7.835,17.5-17.5,17.5c-9.665,0-17.5-7.835-17.5-17.5s7.835-17.5,17.5-17.5
+		C-508.522,2003.904-500.686,2011.739-500.686,2021.404z"/>
+</g>
+<text transform="matrix(1 0 0 1 -843.7324 -950.8552)" font-family="'Lato-Regular'" font-size="48">ALWAYS ON</text>
+<text transform="matrix(1 0 0 1 -515.4922 -1145.9514)" font-family="'Lato-Regular'" font-size="48">A = OFF</text>
+<path d="M-885.857-1007.993"/>
+<sodipodi:namedview  inkscape:window-width="1400" inkscape:cy="550" inkscape:window-height="964" inkscape:current-layer="layer2" inkscape:pageshadow="2" id="base" showguides="true" bordercolor="#666666" borderopacity="1.0" gridtolerance="10.0" showgrid="false" inkscape:cx="367.02899" inkscape:window-y="-4" inkscape:guide-bbox="true" inkscape:zoom="0.69" guidetolerance="10.0" inkscape:window-x="-4" inkscape:pageopacity="0.0" objecttolerance="10.0" pagecolor="#ffffff">
+	</sodipodi:namedview>
+<rect id="rect2480_1_" x="432.531" y="-238.162" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="925" height="25"/>
+<g id="g3343_1_" transform="translate(-28,0)">
+	
+		<rect id="rect2478_1_" x="460.531" y="-560.511" fill="#FFEBEB" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="925" height="321.85"/>
+	
+		<polygon id="rect3285_1_" inkscape:transform-center-x="-130.00001" inkscape:transform-center-y="-130.00001" fill="#FFE1E1" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		460.531,-560.511 1385.531,-560.511 1645.531,-783.661 720.531,-783.661 	">
+	</polygon>
+	
+		<polygon id="rect3271_1_" inkscape:transform-center-x="-130.00006" inkscape:transform-center-y="-130.00006" fill="#FFD7D7" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		1645.531,-783.661 1385.531,-560.511 1385.531,-238.662 1645.531,-461.812 	">
+	</polygon>
+</g>
+<path id="rect3287_1_" sodipodi:nodetypes="ccccc" fill="#FFD42A" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="
+	M712.531-723.661l-200,199.999h765l200-199.999H712.531z"/>
+<g id="g3299_1_" transform="translate(-28,0)">
+	
+		<rect id="rect3252_1_" x="460.531" y="-563.662" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="150" height="40"/>
+	
+		<polygon id="rect3254_1_" inkscape:transform-center-x="-129.99999" inkscape:transform-center-y="-129.99999" fill="#A7BEDF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		720.531,-823.661 870.531,-823.661 610.531,-563.662 460.531,-563.662 	">
+	</polygon>
+	
+		<polygon id="rect3256_1_" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		870.531,-783.661 610.531,-523.662 610.531,-563.662 870.531,-823.661 	">
+	</polygon>
+</g>
+<g id="g2466_1_" transform="translate(122,0)">
+	
+		<path id="rect2468_1_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M460.531-549.662v26h168.977v-26H460.531z"/>
+	
+		<path id="rect2470_1_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M660.531-749.661l-200,199.999h168.977l199.999-199.999H660.531z"/>
+</g>
+<g id="g3309_1_" transform="translate(-34,0)">
+	
+		<rect id="rect3277_1_" x="785.531" y="-563.861" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="280" height="40"/>
+	
+		<path id="rect3279_1_" sodipodi:nodetypes="ccccc" fill="#A7BEDF" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M1045.531-823.848l-260,259.999h280l260-259.999H1045.531z"/>
+	
+		<polygon id="rect3281_1_" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		1325.531,-783.862 1065.531,-523.861 1065.531,-563.861 1325.531,-823.862 	">
+	</polygon>
+</g>
+<g id="g2476_1_" transform="translate(570.8987,0)">
+	
+		<path id="path2478_1_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M460.531-549.662v26h176.031v-26H460.531z"/>
+	
+		<path id="path2480_1_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M660.531-749.661l-200,199.999h175.741l200-199.999H660.531z"/>
+</g>
+<g id="g3304_1_" transform="translate(-28,0)">
+	
+		<rect id="rect3265_1_" x="1235.531" y="-563.861" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="150" height="40"/>
+	
+		<polygon id="rect3267_1_" inkscape:transform-center-x="-129.99999" inkscape:transform-center-y="-129.99999" fill="#A7BEDF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		1495.531,-823.862 1645.531,-823.862 1385.531,-563.861 1235.531,-563.861 	">
+	</polygon>
+	
+		<polygon id="rect3269_1_" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		1645.531,-783.862 1385.531,-523.861 1385.531,-563.861 1645.531,-823.862 	">
+	</polygon>
+</g>
+<polygon id="rect3273_1_" inkscape:transform-center-x="-130.00006" inkscape:transform-center-y="-130.00006" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+	1617.531,-486.109 1357.531,-237.103 1357.531,-213.162 1617.531,-462.168 ">
+</polygon>
+<g id="g3314_1_" transform="translate(-16,-40)">
+	
+		<rect id="rect3316_1_" x="785.531" y="-563.861" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" width="248" height="40"/>
+	
+		<path id="path3318_1_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M947.531-723.848l-162,159.999h250l160-159.999H947.531z"/>
+	
+		<path id="rect3320_1_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M1195.531-723.848l-162,159.999v40l162-159.999V-723.848z"/>
+</g>
+<path id="rect3348_1_" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="M547.094-523.785v57.156
+	c0,32.434,23.25,58.529,52.146,58.529h140.68c28.896,0,52.174-26.1,52.174-58.529v-57.156H547.094L547.094-523.785z"/>
+<path id="path3353_1_" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="M995.094-523.785v57.156
+	c0,32.434,23.254,58.529,52.146,58.529h140.68c28.896,0,52.174-26.1,52.174-58.529v-57.156H995.094L995.094-523.785z"/>
+<path id="path3399_1_" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M976.639-681.089v-389.142"/>
+<path id="path3401_1_" sodipodi:cx="523.73419" sodipodi:rx="15.822784" sodipodi:ry="15.822784" sodipodi:cy="986.18988" sodipodi:type="arc" fill="#FFFFFF" stroke="#000000" stroke-width="5" stroke-linejoin="bevel" d="
+	M994.139-1087.896c0-9.665-7.835-17.5-17.5-17.5s-17.5,7.835-17.5,17.5s7.835,17.5,17.5,17.5S994.139-1078.231,994.139-1087.896z"/>
+<path id="path3405_1_" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M1248.639-669.635V-887.76"/>
+<path id="path3407_1_" sodipodi:cx="523.73419" sodipodi:rx="15.822784" sodipodi:ry="15.822784" sodipodi:cy="986.18988" sodipodi:type="arc" fill="#FFFFFF" stroke="#000000" stroke-width="6.3291" stroke-linejoin="bevel" d="
+	M1266.139-905.426c0-9.665-7.835-17.5-17.5-17.5s-17.5,7.835-17.5,17.5s7.835,17.5,17.5,17.5S1266.139-895.76,1266.139-905.426z"/>
+<path id="path3411_2_" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M778.639-675.635v-208.1"/>
+<text transform="matrix(1 0 0 1 910.3965 -1142.6194)" font-family="'Lato-Regular'" font-size="48">B = OFF</text>
+<path d="M542.031-1004.661"/>
+<line fill="none" stroke="#000000" stroke-width="7" x1="-179.25" y1="-891.258" x2="779.125" y2="-883.735"/>
+<text transform="matrix(1 0 0 1 1165.125 -967.7351)" font-family="'Lato-Regular'" font-size="48">OUTPUT = OFF</text>
+<rect id="rect2480_3_" x="-965.375" y="825.314" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="925" height="25"/>
+<g id="g3343_3_" transform="translate(-28,0)">
+	
+		<rect id="rect2478_3_" x="-937.375" y="502.964" fill="#FFEBEB" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="925" height="321.85"/>
+	
+		<polygon id="rect3285_3_" inkscape:transform-center-x="-130.00001" inkscape:transform-center-y="-130.00001" fill="#FFE1E1" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		-937.375,502.964 -12.375,502.964 247.625,279.815 -677.375,279.815 	">
+	</polygon>
+	
+		<polygon id="rect3271_3_" inkscape:transform-center-x="-130.00006" inkscape:transform-center-y="-130.00006" fill="#FFD7D7" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		247.625,279.815 -12.375,502.964 -12.375,824.814 247.625,601.663 	">
+	</polygon>
+</g>
+<path id="rect3287_3_" sodipodi:nodetypes="ccccc" fill="#FFD42A" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="
+	M-685.375,339.815l-200,199.999h765l200-199.999H-685.375z"/>
+<g id="g3299_3_" transform="translate(-28,0)">
+	
+		<rect id="rect3252_3_" x="-937.375" y="499.814" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="150" height="40"/>
+	
+		<polygon id="rect3254_3_" inkscape:transform-center-x="-129.99999" inkscape:transform-center-y="-129.99999" fill="#A7BEDF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		-677.375,239.815 -527.375,239.815 -787.375,499.814 -937.375,499.814 	">
+	</polygon>
+	
+		<polygon id="rect3256_3_" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		-527.375,279.815 -787.375,539.814 -787.375,499.814 -527.375,239.815 	">
+	</polygon>
+</g>
+<g id="g2466_3_" transform="translate(122,0)">
+	<path id="rect2468_3_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="
+		M-937.375,513.814v26h168.976v-26H-937.375z"/>
+	
+		<path id="rect2470_3_" sodipodi:nodetypes="ccccc" fill="#FF0000" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-737.375,313.815l-200,199.999h168.976l200-199.999H-737.375z"/>
+</g>
+<g id="g3309_3_" transform="translate(-34,0)">
+	
+		<rect id="rect3277_3_" x="-612.375" y="499.615" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="280" height="40"/>
+	
+		<path id="rect3279_3_" sodipodi:nodetypes="ccccc" fill="#A7BEDF" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-352.375,239.627l-260,259.999h280l260-259.999H-352.375z"/>
+	
+		<polygon id="rect3281_3_" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		-72.375,279.614 -332.375,539.615 -332.375,499.615 -72.375,239.614 	">
+	</polygon>
+</g>
+<g id="g2476_3_" transform="translate(570.8987,0)">
+	
+		<path id="path2478_3_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-937.376,513.814v26h176.031v-26H-937.376z"/>
+	
+		<path id="path2480_3_" sodipodi:nodetypes="ccccc" fill="#FF0000" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-737.376,313.815l-200,199.999h175.741l200-199.999H-737.376z"/>
+</g>
+<g id="g3304_3_" transform="translate(-28,0)">
+	
+		<rect id="rect3265_3_" x="-162.375" y="499.615" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="150" height="40"/>
+	
+		<polygon id="rect3267_3_" inkscape:transform-center-x="-129.99999" inkscape:transform-center-y="-129.99999" fill="#A7BEDF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		97.625,239.614 247.625,239.614 -12.375,499.615 -162.375,499.615 	">
+	</polygon>
+	
+		<polygon id="rect3269_3_" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		247.625,279.614 -12.375,539.615 -12.375,499.615 247.625,239.614 	">
+	</polygon>
+</g>
+<polygon id="rect3273_3_" inkscape:transform-center-x="-130.00006" inkscape:transform-center-y="-130.00006" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+	219.625,577.366 -40.375,826.372 -40.375,850.314 219.625,601.308 ">
+</polygon>
+<g id="g3314_3_" transform="translate(-16,-40)">
+	
+		<rect id="rect3316_3_" x="-612.375" y="499.615" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" width="248" height="40"/>
+	
+		<path id="path3318_3_" sodipodi:nodetypes="ccccc" fill="#FF0000" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-450.375,339.627l-162,159.999h250l160-159.999H-450.375z"/>
+	
+		<path id="rect3320_3_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-202.375,339.627l-162,159.999v40l162-159.999V339.627z"/>
+</g>
+<path id="rect3348_3_" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="M-850.813,539.691v57.156
+	c0,32.434,23.25,58.529,52.146,58.529h140.68c28.896,0,52.174-26.1,52.174-58.529v-57.156H-850.813L-850.813,539.691z"/>
+<path id="path3353_3_" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="M-402.813,539.691v57.156
+	c0,32.434,23.254,58.529,52.146,58.529h140.68c28.896,0,52.174-26.1,52.174-58.529v-57.156H-402.813L-402.813,539.691z"/>
+<path id="path3399_3_" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M-421.268,382.387V-6.755"/>
+<path id="path3401_3_" sodipodi:cx="523.73419" sodipodi:rx="15.822784" sodipodi:ry="15.822784" sodipodi:cy="986.18988" sodipodi:type="arc" fill="#FF0000" stroke="#000000" stroke-width="6.3291" stroke-linejoin="bevel" d="
+	M-403.768-24.421c0-9.665-7.835-17.5-17.5-17.5s-17.5,7.835-17.5,17.5s7.835,17.5,17.5,17.5S-403.768-14.756-403.768-24.421z"/>
+<path id="path3405_3_" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M-149.268,393.84V175.716"/>
+<g id="g3409_1_" transform="matrix(1,0,0,-1,-131.06329,1112.6469)">
+	<path id="path3411_3_" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M-488.204,718.807v218.124"/>
+	
+		<path id="path3413_1_" sodipodi:cx="523.73419" sodipodi:rx="15.822784" sodipodi:ry="15.822784" sodipodi:cy="986.18988" sodipodi:type="arc" fill="#FF0000" stroke="#000000" stroke-width="6.3291" stroke-linejoin="bevel" d="
+		M-470.704,954.597c0,9.665-7.835,17.5-17.5,17.5c-9.665,0-17.5-7.835-17.5-17.5s7.835-17.5,17.5-17.5
+		C-478.54,937.097-470.704,944.932-470.704,954.597z"/>
+</g>
+<text transform="matrix(1 0 0 1 -813.7505 115.9524)" font-family="'Lato-Regular'" font-size="48">ALWAYS ON</text>
+<text transform="matrix(1 0 0 1 -485.5103 -79.1438)" font-family="'Lato-Regular'" font-size="48">A = ON</text>
+<path d="M-855.875,58.815"/>
+<rect x="-605.813" y="554.691" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="202.062" height="47.389"/>
+<rect id="rect2480_2_" x="462.514" y="828.646" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="924.999" height="25"/>
+<g id="g3343_2_" transform="translate(-28,0)">
+	
+		<rect id="rect2478_2_" x="490.514" y="506.296" fill="#FFEBEB" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="924.999" height="321.85"/>
+	
+		<polygon id="rect3285_2_" inkscape:transform-center-x="-130.00001" inkscape:transform-center-y="-130.00001" fill="#FFE1E1" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		490.514,506.296 1415.513,506.296 1675.513,283.147 750.513,283.147 	">
+	</polygon>
+	
+		<polygon id="rect3271_2_" inkscape:transform-center-x="-130.00006" inkscape:transform-center-y="-130.00006" fill="#FFD7D7" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		1675.513,283.147 1415.513,506.296 1415.513,828.146 1675.513,604.995 	">
+	</polygon>
+</g>
+<path id="rect3287_2_" sodipodi:nodetypes="ccccc" fill="#FFD42A" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="
+	M742.513,343.147L542.514,543.146h764.999l200-199.999H742.513z"/>
+<g id="g3299_2_" transform="translate(-28,0)">
+	
+		<rect id="rect3252_2_" x="490.514" y="503.146" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="149.999" height="40"/>
+	
+		<polygon id="rect3254_2_" inkscape:transform-center-x="-129.99999" inkscape:transform-center-y="-129.99999" fill="#A7BEDF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		750.513,243.147 900.513,243.147 640.513,503.146 490.514,503.146 	">
+	</polygon>
+	
+		<polygon id="rect3256_2_" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		900.513,283.147 640.513,543.146 640.513,503.146 900.513,243.147 	">
+	</polygon>
+</g>
+<g id="g2466_2_" transform="translate(122,0)">
+	
+		<path id="rect2468_2_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M490.513,517.146v26h168.977v-26H490.513z"/>
+	
+		<path id="rect2470_2_" sodipodi:nodetypes="ccccc" fill="#FF0000" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M690.513,317.147l-200,199.999h168.977l200-199.999H690.513z"/>
+</g>
+<g id="g3309_2_" transform="translate(-34,0)">
+	
+		<rect id="rect3277_2_" x="815.513" y="502.947" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="280" height="40"/>
+	
+		<path id="rect3279_2_" sodipodi:nodetypes="ccccc" fill="#A7BEDF" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M1075.513,242.959l-260,259.999h280l260-259.999H1075.513z"/>
+	
+		<polygon id="rect3281_2_" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		1355.513,282.946 1095.513,542.947 1095.513,502.947 1355.513,242.946 	">
+	</polygon>
+</g>
+<g id="g2476_2_" transform="translate(570.8987,0)">
+	
+		<path id="path2478_2_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M490.512,517.146v26h176.031v-26H490.512z"/>
+	
+		<path id="path2480_2_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M690.512,317.147l-200,199.999h175.742l200-199.999H690.512z"/>
+</g>
+<g id="g3304_2_" transform="translate(-28,0)">
+	
+		<rect id="rect3265_2_" x="1265.513" y="502.947" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="150" height="40"/>
+	
+		<polygon id="rect3267_2_" inkscape:transform-center-x="-129.99999" inkscape:transform-center-y="-129.99999" fill="#A7BEDF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		1525.513,242.946 1675.513,242.946 1415.513,502.947 1265.513,502.947 	">
+	</polygon>
+	
+		<polygon id="rect3269_2_" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		1675.513,282.946 1415.513,542.947 1415.513,502.947 1675.513,242.946 	">
+	</polygon>
+</g>
+<polygon id="rect3273_2_" inkscape:transform-center-x="-130.00006" inkscape:transform-center-y="-130.00006" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+	1647.513,580.698 1387.513,829.704 1387.513,853.646 1647.513,604.64 ">
+</polygon>
+<g id="g3314_2_" transform="translate(-16,-40)">
+	
+		<rect id="rect3316_2_" x="815.513" y="502.947" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" width="248" height="40"/>
+	
+		<path id="path3318_2_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M977.513,342.959l-162,159.999h250l160-159.999H977.513z"/>
+	
+		<path id="rect3320_2_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M1225.513,342.959l-162,159.999v40l162-159.999V342.959z"/>
+</g>
+<path id="rect3348_2_" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="M577.076,543.023v57.156
+	c0,32.434,23.249,58.529,52.146,58.529h140.68c28.896,0,52.174-26.1,52.174-58.529v-57.156H577.076L577.076,543.023z"/>
+<path id="path3353_2_" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="M1025.075,543.023v57.156
+	c0,32.434,23.254,58.529,52.146,58.529h140.68c28.896,0,52.174-26.1,52.174-58.529v-57.156H1025.075L1025.075,543.023z"/>
+<path id="path3399_2_" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M1006.62,385.719V-3.423"/>
+<path id="path3401_2_" sodipodi:cx="523.73419" sodipodi:rx="15.822784" sodipodi:ry="15.822784" sodipodi:cy="986.18988" sodipodi:type="arc" fill="#FFFFFF" stroke="#000000" stroke-width="5" stroke-linejoin="bevel" d="
+	M1024.12-21.089c0-9.665-7.834-17.5-17.5-17.5c-9.664,0-17.5,7.835-17.5,17.5s7.836,17.5,17.5,17.5
+	C1016.286-3.589,1024.12-11.424,1024.12-21.089z"/>
+<path id="path3405_2_" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M1278.62,397.172V179.048"/>
+<path id="path3407_2_" sodipodi:cx="523.73419" sodipodi:rx="15.822784" sodipodi:ry="15.822784" sodipodi:cy="986.18988" sodipodi:type="arc" fill="#FFFFFF" stroke="#000000" stroke-width="6.3291" stroke-linejoin="bevel" d="
+	M1296.12,161.382c0-9.665-7.834-17.5-17.5-17.5c-9.664,0-17.5,7.835-17.5,17.5s7.836,17.5,17.5,17.5
+	C1288.286,178.882,1296.12,171.047,1296.12,161.382z"/>
+<path id="path3411_1_" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M808.62,391.172v-208.1"/>
+<text transform="matrix(1 0 0 1 940.3789 -75.8118)" font-family="'Lato-Regular'" font-size="48">B = OFF</text>
+<path d="M572.014,62.147"/>
+<line fill="none" stroke="#000000" stroke-width="7" x1="-149.268" y1="175.55" x2="809.106" y2="183.073"/>
+<text transform="matrix(1 0 0 1 1195.1074 99.0725)" font-family="'Lato-Regular'" font-size="48">OUTPUT = OFF</text>
+<rect id="rect2480_5_" x="-935.369" y="1931.367" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="925" height="25"/>
+<g id="g3343_5_" transform="translate(-28,0)">
+	
+		<rect id="rect2478_5_" x="-907.369" y="1609.018" fill="#FFEBEB" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="925" height="321.85"/>
+	
+		<polygon id="rect3285_5_" inkscape:transform-center-x="-130.00001" inkscape:transform-center-y="-130.00001" fill="#FFE1E1" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		-907.369,1609.018 17.631,1609.018 277.631,1385.868 -647.369,1385.868 	">
+	</polygon>
+	
+		<polygon id="rect3271_5_" inkscape:transform-center-x="-130.00006" inkscape:transform-center-y="-130.00006" fill="#FFD7D7" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		277.631,1385.868 17.631,1609.018 17.631,1930.867 277.631,1707.717 	">
+	</polygon>
+</g>
+<path id="rect3287_5_" sodipodi:nodetypes="ccccc" fill="#FFD42A" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="
+	M-655.369,1445.868l-200,199.999h765l200-199.999H-655.369z"/>
+<g id="g3299_5_" transform="translate(-28,0)">
+	
+		<rect id="rect3252_5_" x="-907.369" y="1605.867" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="150" height="40"/>
+	
+		<polygon id="rect3254_5_" inkscape:transform-center-x="-129.99999" inkscape:transform-center-y="-129.99999" fill="#A7BEDF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		-647.369,1345.868 -497.369,1345.868 -757.369,1605.867 -907.369,1605.867 	">
+	</polygon>
+	
+		<polygon id="rect3256_5_" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		-497.369,1385.868 -757.369,1645.867 -757.369,1605.867 -497.369,1345.868 	">
+	</polygon>
+</g>
+<g id="g2466_5_" transform="translate(122,0)">
+	<path id="rect2468_5_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="
+		M-907.369,1619.867v26h168.976v-26H-907.369z"/>
+	
+		<path id="rect2470_5_" sodipodi:nodetypes="ccccc" fill="#FF0000" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-707.369,1419.868l-200,199.999h168.976l200-199.999H-707.369z"/>
+</g>
+<g id="g3309_5_" transform="translate(-34,0)">
+	
+		<rect id="rect3277_5_" x="-582.369" y="1605.668" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="280" height="40"/>
+	
+		<path id="rect3279_5_" sodipodi:nodetypes="ccccc" fill="#A7BEDF" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-322.369,1345.681l-260,259.999h280l260-259.999H-322.369z"/>
+	
+		<polygon id="rect3281_5_" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		-42.369,1385.667 -302.369,1645.668 -302.369,1605.668 -42.369,1345.667 	">
+	</polygon>
+</g>
+<g id="g2476_5_" transform="translate(570.8987,0)">
+	
+		<path id="path2478_5_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-907.369,1619.867v26h176.031v-26H-907.369z"/>
+	
+		<path id="path2480_5_" sodipodi:nodetypes="ccccc" fill="#FF0000" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-707.369,1419.868l-200,199.999h175.741l200-199.999H-707.369z"/>
+</g>
+<g id="g3304_5_" transform="translate(-28,0)">
+	
+		<rect id="rect3265_5_" x="-132.369" y="1605.668" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="150" height="40"/>
+	
+		<polygon id="rect3267_5_" inkscape:transform-center-x="-129.99999" inkscape:transform-center-y="-129.99999" fill="#A7BEDF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		127.631,1345.667 277.631,1345.667 17.631,1605.668 -132.369,1605.668 	">
+	</polygon>
+	
+		<polygon id="rect3269_5_" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		277.631,1385.667 17.631,1645.668 17.631,1605.668 277.631,1345.667 	">
+	</polygon>
+</g>
+<polygon id="rect3273_5_" inkscape:transform-center-x="-130.00006" inkscape:transform-center-y="-130.00006" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+	249.631,1683.42 -10.369,1932.426 -10.369,1956.367 249.631,1707.362 ">
+</polygon>
+<g id="g3314_5_" transform="translate(-16,-40)">
+	
+		<rect id="rect3316_5_" x="-582.369" y="1605.668" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" width="248" height="40"/>
+	
+		<path id="path3318_5_" sodipodi:nodetypes="ccccc" fill="#FF0000" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-420.369,1445.681l-162,159.999h250l160-159.999H-420.369z"/>
+	
+		<path id="rect3320_5_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M-172.369,1445.681l-162,159.999v40l162-159.999V1445.681z"/>
+</g>
+<path id="rect3348_5_" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="M-820.806,1645.744v57.156
+	c0,32.434,23.25,58.529,52.146,58.529h140.68c28.896,0,52.174-26.1,52.174-58.529v-57.156H-820.806L-820.806,1645.744z"/>
+<path id="path3353_5_" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="M-372.807,1645.744v57.156
+	c0,32.434,23.254,58.529,52.146,58.529h140.68c28.896,0,52.174-26.1,52.174-58.529v-57.156H-372.807L-372.807,1645.744z"/>
+<path id="path3399_5_" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M-391.262,1488.441v-389.142"/>
+<path id="path3401_5_" sodipodi:cx="523.73419" sodipodi:rx="15.822784" sodipodi:ry="15.822784" sodipodi:cy="986.18988" sodipodi:type="arc" fill="#FF0000" stroke="#000000" stroke-width="6.3291" stroke-linejoin="bevel" d="
+	M-373.762,1081.633c0-9.665-7.835-17.5-17.5-17.5s-17.5,7.835-17.5,17.5s7.835,17.5,17.5,17.5S-373.762,1091.298-373.762,1081.633z"
+	/>
+<path id="path3405_5_" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M-119.262,1499.894V1281.77"/>
+<g id="g3409_2_" transform="matrix(1,0,0,-1,-131.06329,1112.6469)">
+	<path id="path3411_5_" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M-458.198-387.247v218.124"/>
+	
+		<path id="path3413_2_" sodipodi:cx="523.73419" sodipodi:rx="15.822784" sodipodi:ry="15.822784" sodipodi:cy="986.18988" sodipodi:type="arc" fill="#FF0000" stroke="#000000" stroke-width="6.3291" stroke-linejoin="bevel" d="
+		M-440.698-151.457c0,9.665-7.835,17.5-17.5,17.5c-9.665,0-17.5-7.835-17.5-17.5s7.835-17.5,17.5-17.5
+		C-448.533-168.957-440.698-161.122-440.698-151.457z"/>
+</g>
+<text transform="matrix(1 0 0 1 -783.7441 1222.0061)" font-family="'Lato-Regular'" font-size="48">ALWAYS ON</text>
+<text transform="matrix(1 0 0 1 -455.5039 1026.9094)" font-family="'Lato-Regular'" font-size="48">A = ON</text>
+<path d="M-825.869,1164.868"/>
+<rect x="-575.806" y="1660.744" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="202.062" height="47.389"/>
+<rect id="rect2480_4_" x="492.52" y="1934.699" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="925" height="25"/>
+<g id="g3343_4_" transform="translate(-28,0)">
+	
+		<rect id="rect2478_4_" x="520.52" y="1612.35" fill="#FFEBEB" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="925" height="321.85"/>
+	
+		<polygon id="rect3285_4_" inkscape:transform-center-x="-130.00001" inkscape:transform-center-y="-130.00001" fill="#FFE1E1" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		520.52,1612.35 1445.52,1612.35 1705.52,1389.2 780.52,1389.2 	">
+	</polygon>
+	
+		<polygon id="rect3271_4_" inkscape:transform-center-x="-130.00006" inkscape:transform-center-y="-130.00006" fill="#FFD7D7" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		1705.52,1389.2 1445.52,1612.35 1445.52,1934.199 1705.52,1711.049 	">
+	</polygon>
+</g>
+<path id="rect3287_4_" sodipodi:nodetypes="ccccc" fill="#FFD42A" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="
+	M772.52,1449.2l-200,199.999h765l200-199.999H772.52z"/>
+<g id="g3299_4_" transform="translate(-28,0)">
+	
+		<rect id="rect3252_4_" x="520.52" y="1609.199" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="150" height="40"/>
+	
+		<polygon id="rect3254_4_" inkscape:transform-center-x="-129.99999" inkscape:transform-center-y="-129.99999" fill="#A7BEDF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		780.52,1349.2 930.52,1349.2 670.52,1609.199 520.52,1609.199 	">
+	</polygon>
+	
+		<polygon id="rect3256_4_" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		930.52,1389.2 670.52,1649.199 670.52,1609.199 930.52,1349.2 	">
+	</polygon>
+</g>
+<g id="g2466_4_" transform="translate(122,0)">
+	
+		<path id="rect2468_4_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M520.52,1623.199v26h168.977v-26H520.52z"/>
+	
+		<path id="rect2470_4_" sodipodi:nodetypes="ccccc" fill="#FF0000" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M720.52,1423.2l-200,199.999h168.977L889.494,1423.2H720.52z"/>
+</g>
+<g id="g3309_4_" transform="translate(-34,0)">
+	
+		<rect id="rect3277_4_" x="845.52" y="1609" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="280" height="40"/>
+	
+		<path id="rect3279_4_" sodipodi:nodetypes="ccccc" fill="#A7BEDF" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M1105.52,1349.013l-260,259.999h280l260-259.999H1105.52z"/>
+	
+		<polygon id="rect3281_4_" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		1385.52,1388.999 1125.52,1649 1125.52,1609 1385.52,1348.999 	">
+	</polygon>
+</g>
+<g id="g2476_4_" transform="translate(570.8987,0)">
+	
+		<path id="path2478_4_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M520.519,1623.199v26h176.031v-26H520.519z"/>
+	
+		<path id="path2480_4_" sodipodi:nodetypes="ccccc" fill="#FF0000" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M720.519,1423.2l-200,199.999h175.74l200-199.999H720.519z"/>
+</g>
+<g id="g3304_4_" transform="translate(-28,0)">
+	
+		<rect id="rect3265_4_" x="1295.52" y="1609" fill="#B0C5E3" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="150" height="40"/>
+	
+		<polygon id="rect3267_4_" inkscape:transform-center-x="-129.99999" inkscape:transform-center-y="-129.99999" fill="#A7BEDF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		1555.52,1348.999 1705.52,1348.999 1445.52,1609 1295.52,1609 	">
+	</polygon>
+	
+		<polygon id="rect3269_4_" inkscape:transform-center-x="-130" inkscape:transform-center-y="-130" fill="#8DABD5" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+		1705.52,1388.999 1445.52,1649 1445.52,1609 1705.52,1348.999 	">
+	</polygon>
+</g>
+<polygon id="rect3273_4_" inkscape:transform-center-x="-130.00006" inkscape:transform-center-y="-130.00006" fill="#4D4D4D" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="
+	1677.52,1686.752 1417.52,1935.758 1417.52,1959.699 1677.52,1710.694 ">
+</polygon>
+<g id="g3314_4_" transform="translate(-16,-40)">
+	
+		<rect id="rect3316_4_" x="845.52" y="1609" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" width="248" height="40"/>
+	
+		<path id="path3318_4_" sodipodi:nodetypes="ccccc" fill="#FF0000" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M1007.52,1449.013l-162,159.999h250l160-159.999H1007.52z"/>
+	
+		<path id="rect3320_4_" sodipodi:nodetypes="ccccc" fill="#4D4D4D" stroke="#000000" stroke-width="1.6818" stroke-linejoin="bevel" d="
+		M1255.52,1449.013l-162,159.999v40l162-159.999V1449.013z"/>
+</g>
+<path id="rect3348_4_" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="M607.082,1649.076v57.156
+	c0,32.434,23.25,58.529,52.146,58.529h140.68c28.896,0,52.174-26.1,52.174-58.529v-57.156H607.082L607.082,1649.076z"/>
+<path id="path3353_4_" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" d="M1055.082,1649.076v57.156
+	c0,32.434,23.254,58.529,52.146,58.529h140.68c28.896,0,52.174-26.1,52.174-58.529v-57.156H1055.082L1055.082,1649.076z"/>
+<path id="path3399_4_" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M1036.627,1491.773v-389.142"/>
+<path id="path3401_4_" sodipodi:cx="523.73419" sodipodi:rx="15.822784" sodipodi:ry="15.822784" sodipodi:cy="986.18988" sodipodi:type="arc" fill="#FF0000" stroke="#000000" stroke-width="6.3291" stroke-linejoin="bevel" d="
+	M1054.127,1084.965c0-9.665-7.836-17.5-17.5-17.5c-9.666,0-17.5,7.835-17.5,17.5s7.834,17.5,17.5,17.5
+	C1046.291,1102.465,1054.127,1094.63,1054.127,1084.965z"/>
+<path id="path3405_4_" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M1308.627,1503.226v-218.124"/>
+<path id="path3407_3_" sodipodi:cx="523.73419" sodipodi:rx="15.822784" sodipodi:ry="15.822784" sodipodi:cy="986.18988" sodipodi:type="arc" fill="#FF0000" stroke="#000000" stroke-width="6.3291" stroke-linejoin="bevel" d="
+	M1326.127,1267.436c0-9.665-7.836-17.5-17.5-17.5c-9.666,0-17.5,7.835-17.5,17.5s7.834,17.5,17.5,17.5
+	C1318.291,1284.936,1326.127,1277.101,1326.127,1267.436z"/>
+<path id="path3411_4_" sodipodi:nodetypes="cc" fill="none" stroke="#000000" stroke-width="7" d="M838.627,1497.226v-208.1"/>
+<text transform="matrix(1 0 0 1 970.3848 1030.2415)" font-family="'Lato-Regular'" font-size="48">B = ON</text>
+<path d="M602.02,1168.2"/>
+<rect x="852.082" y="1664.076" fill="#FFCC00" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" width="202.063" height="47.389"/>
+<line fill="none" stroke="#000000" stroke-width="7" x1="-119.262" y1="1281.604" x2="839.113" y2="1289.126"/>
+<text transform="matrix(1 0 0 1 1225.1133 1205.1262)" font-family="'Lato-Regular'" font-size="48">OUTPUT = ON</text>
+</svg>

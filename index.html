@@ -92,22 +92,63 @@
                 <section id='mosfet'>
                     <h3> Transistors = Semi-Conductor Juncitons </h3>
                     <div style="text-align: center">
-                        <img class="white" style="width: 46%; margin-right: 0.5em; margin-left: auto; margin-bottom: 0.2em;"
-                            src="./figures/mosfet_3d.svg"> </img>
-                        <video loop class="fragment" data-autoplay style="width: 40%; margin-right: 0.5em; margin-left: auto; margin-bottom: 0.2em;">
-                            <source src="./figures/mosfet.webm" type="video/webm" >
-                        </video>
+                        <img class="white" style="width: 45%; margin-right: 2%; margin-left: auto; margin-bottom: 0.5em;"
+                            src="./figures/mosfet_off.svg"> </img>
+                        <img class="white" style="width: 45%; margin-right: auto; margin-left: 2%; margin-bottom: 0.5em;"
+                            src="./figures/mosfet_on.svg"></img>
                     </div>
                     <span style="font-size: 1em">
                         <p class="fragment">
-                            <strong> Binary logic! </strong>: channel open (1), channel closed (0)
+                            With these devices, we can create <strong>logic gates</strong>.
                         </p>
                     </span>
                 </section>
 
-                <section id='logic'>
+                <section id='logic_1'>
+                    <h3 style="margin-bottom: 0.1em">
+                        Example: AND Gate
+                    </h3>
+
+                    <div style="display:flex; align-items: center;">
+                        <img class="white" style="height: 14em; margin-left: auto; margin-right: 5%;"
+                            src="./figures/and_gate.svg"> </img>
+
+                        <div style="font-size: 0.8em; width: 48%; margin-right: auto; margin-left: 5%;">
+                            <table class="fragment">
+                                <tr>
+                                    <th><b>A</b></th>
+                                    <th><b>B</b></th>
+                                    <th><b>OUTPUT</b></th>
+                                </tr>
+                                <tr>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr >
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section id='logic_2'>
                     <h3>
-                        Combine transistors to create logic gates
+                        many possible logic gates can be created
                     </h3>
                     <img class="white" style="width: 70%" src="./figures/logic_gates.jpeg"> </img>
                     <ul>
@@ -115,7 +156,8 @@
                             NAND gates are <strong> universal </strong>.
                         </li>
                         <li class="fragment">
-                            Combine two transistors for NAND gate. Combine NAND gates for all logical operations.
+                            Combine transistors to make NAND gates.
+                            Combine NAND gates for all logical operations.
                         </li>
                         <li class="fragment">
                             <strong> WE MADE A CLASSICAL COMPUTER! </strong>
@@ -124,72 +166,85 @@
                 </section>
 
                 <section id='counting'>
-                    <h3> Before we can add, we need to relearn counting </h3>
-                    <table style="font-size: 0.8em">
-                            <thead>
-                                <tr>
-                                    <td><strong>2^2</strong></td>
-                                    <td><strong>2^1</strong></td>
-                                    <td><strong>2^0</strong></td>
-                                    <td><strong>sum</strong></td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="fragment">
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td><b>0</b></td>
-                                </tr>
-                                <tr class="fragment">
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>1</td>
-                                    <td><b>1</b></td>
-                                </tr>
-                                <tr class="fragment">
-                                    <td>0</td>
-                                    <td>1</td>
-                                    <td>0</td>
-                                    <td><b>2</b></td>
-                                </tr>
-                                <tr class="fragment">
-                                    <td>0</td>
-                                    <td>1</td>
-                                    <td>1</td>
-                                    <td><b>3</b></td>
-                                </tr>
-                                <tr class="fragment">
-                                    <td>1</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td><b>4</b></td>
-                                </tr>
-                                <tr class="fragment">
-                                    <td>1</td>
-                                    <td>0</td>
-                                    <td>1</td>
-                                    <td><b>5</b></td>
-                                </tr>
-                                <tr class="fragment">
-                                    <td>1</td>
-                                    <td>1</td>
-                                    <td>0</td>
-                                    <td><b>6</b></td>
-                                </tr>
-                                <tr class="fragment">
-                                    <td>1</td>
-                                    <td>1</td>
-                                    <td>1</td>
-                                    <td><b>7</b></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <h3> let's do some classical computing </h3>
+                    <p> First, we need to learn to count in <strong>binary</strong>. </p>
+
+                    <div style="display:flex;">
+
+                        <div style="font-size: 0.8em; width: 45%; margin-left: auto; margin-right: 2%;">
+                            <img style="width: 100%; margin: auto;"
+                                src="./figures/count_0.png"> </img>
+
+                            <img style="width: 100%; margin: auto;"
+                                src="./figures/count_1.png"> </img>
+                        </div>
+                        <div style="font-size: 0.8em; width: 45%; margin-right: auto; margin-left: 2%;">
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td><b>2^2</b></td>
+                                        <td><b>2^1</b></td>
+                                        <td><b>2^0</b></td>
+                                        <td><b>sum</b></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="fragment">
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td><b>0</b></td>
+                                    </tr>
+                                    <tr class="fragment">
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td><b>1</b></td>
+                                    </tr>
+                                    <tr class="fragment">
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td><b>2</b></td>
+                                    </tr>
+                                    <tr class="fragment">
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td><b>3</b></td>
+                                    </tr>
+                                    <tr class="fragment">
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td><b>4</b></td>
+                                    </tr>
+                                    <tr class="fragment">
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td><b>5</b></td>
+                                    </tr>
+                                    <tr class="fragment">
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td><b>6</b></td>
+                                    </tr>
+                                    <tr class="fragment">
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td><b>7</b></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                 </section>
 
                 <section id='half-adder'>
-                    <h3> adding two bits </h3>
-
+                    <h3> adding zeros and ones </h3>
 
                     <div style="display:flex; align-items: center;">
                         <img class="plain" style="height: 10em; margin-left: auto; margin-right: 5%;"
@@ -271,6 +326,26 @@
                     <p class="fragment">
                         <strong>OUTPUT: </strong> S = 5 (or 101)
                     </p>
+                </section>
+
+                <section id='simulations'>
+                    <h3> but supercomputers don't add 3-bit numbers... </h3>
+                    <ul>
+                        <li>
+                            Many of the hardest computational problems are simulations of nature.
+                        </li>
+                        <li class="fragment">
+                            Approximating nature at (relatively) large scale with differential equations works well.
+                        </li>
+                        <li class="fragment">
+                            What about <strong>exact</strong> simulations of nature?
+                        </li>
+                        <ul class="fragment">
+                            <li>
+                                To describe nature exactly we need <strong>quantum mechanics</strong>.
+                            </li>
+                        </ul>
+                    </ul>
                 </section>
 
                 <!-- CONCLUSION -->
