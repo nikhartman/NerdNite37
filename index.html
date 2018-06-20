@@ -31,7 +31,7 @@
                 <section  id="title" data-background-image="./figures/ucsb_qubit.jpg">
 					<h1> Quantum Computing </h1>
                     <p style="font-size: 1em;">
-                        ... wait a minute. What is a classical computer, anyway?
+                        ... from transistors to quantum supremacy
                     </p>
 					<p style="font-size: 1.2em">
                         <strong> Nik Hartman, PhD </strong> <br> <br />
@@ -48,32 +48,15 @@
                     I want you to keep this in your head throughout
                     the talk -->
 
+                    <h3>Quantum supremacy</h3>
                     <ul>
-                        <li> <strong>How we compute in 2018</strong> </li>
-                            <ul class="fragment">
-                                <li> The hardware </li>
-                                <li>
-                                    Binary logic and a simple algorithm
-                                </li>
-                                <li>
-                                    Physical and practical limits
-                                </li>
-
-                            </ul>
-                        <br />
-                        <li class="fragment"> <strong>Quantum Computing</strong> </li>
-                        <ul class="fragment">
-                            <li> How a quantum computer can help </li>
-                            <li> Single quantum bit and quantum superposition </li>
-                            <li>
-                                Multiple quantum bits and entanglement
-                            </li>
-                            <li>
-                                Literally, the simplest algorithm I could find
-                            </li>
-                        </ul>
+                        <li>
+                            When a <strong>quantum computer</strong> can accomplish something a <strong>classical computer</strong> cannot.
+                        </li>
+                        <li>
+                            Likely to show up in your newsfeed in the next 1-5 years.
+                        </li>
                     </ul>
-
 				</section>
 
                 <section id="hardware_intro">
@@ -520,7 +503,7 @@
 
                 <section id='inventing-2'>
                     <img class="plain" style="width: 70%;" src="./figures/bloch_sphere.svg"> </img>
-                    <div style="display:flex; align-items: center;">
+                    <div style="display:flex; align-items: flex-start;">
 
                         <div style="font-size: 0.8em; width: 48%; margin-left: auto; margin-right: 2%;">
                             <ul>
@@ -548,6 +531,54 @@
                         </div>
                     </div>
 
+                </section>
+
+                <section id="putting-together">
+                    <h3>A quantum processor needs more than one qubit</h3>
+                    <ul style="font-size: 0.8em">
+                        <li>
+                            Qubits can be combine to make more complicated superpositions
+                        </li>
+                        <li>
+                            Multiple qubits forming a single quantum superposition are <strong>entangled</strong>.
+                        </li>
+                    </ul>
+                    <p class="fragment">
+                        $$\left| \psi \right\rangle = a_0 \left| 000 \right\rangle + a_1 \left| 100 \right\rangle + a_2 \left| 010 \right\rangle + a_3 \left| 001 \right\rangle + \\
+                            a_4 \left| 110 \right\rangle + a_5 \left| 101 \right\rangle + a_6 \left| 011 \right\rangle + a_7 \left| 111 \right\rangle$$
+                    </p>
+                    <ul class="fragment" style="font-size: 0.8em">
+                        <li>
+                            A quantum logical operation (recall AND/OR/XOR) can change this entangled state.
+                        </li>
+                        <li>
+                            <strong>We invented a quantum computer!</strong>
+                        </li>
+                    </ul>
+
+                </section>
+
+                <section id='qubit-candidates'>
+                    <h3>Working examples</h3>
+                    <p>
+                        Qubits can be made from 2-level quantum systems.
+                    </p>
+                    <div style="display:flex;">
+                        <figure style="font-size: 0.6em">
+                            <img class="white"  src="./figures/trapped_ions.JPG"> </img>
+                            <figcaption><strong>Trapped Atom</strong>:<br /> stable, difficult to couple</figcaption>
+                        </figure>
+
+                        <figure style="font-size: 0.6em">
+                            <img class="white" src="./figures/phase_qubit.jpg"> </img>
+                            <figcaption><strong>Superconducting Ring</strong>:<br /> not stable, easy to couple</figcaption>
+                        </figure>
+
+                        <figure style="font-size: 0.6em">
+                            <img class="white" src="./figures/spin_qubit.png"> </img>
+                            <figcaption><strong>Electron Spins</strong>:<br /> kind of stable, kind of hard to couple</figcaption>
+                        </figure>
+                    </div>
                 </section>
 
                 <!-- CONCLUSION -->
