@@ -99,75 +99,13 @@
                     </div>
                     <span style="font-size: 1em">
                         <p class="fragment">
-                            With these devices, we can create <strong>logic gates</strong>.
+                            Now we can do <strong>calculations with binary numbers</strong>!
                         </p>
                     </span>
                 </section>
 
-                <section id='logic_1'>
-                    <h3 style="margin-bottom: 0.1em">
-                        Example: AND Gate
-                    </h3>
-
-                    <div style="display:flex; align-items: center;">
-                        <img class="white" style="height: 14em; margin-left: auto; margin-right: 5%;"
-                            src="./figures/and_gate.svg"> </img>
-
-                        <div style="font-size: 0.8em; width: 48%; margin-right: auto; margin-left: 5%;">
-                            <table class="fragment">
-                                <tr>
-                                    <th><b>A</b></th>
-                                    <th><b>B</b></th>
-                                    <th><b>OUTPUT</b></th>
-                                </tr>
-                                <tr>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                </tr>
-                                <tr>
-                                    <td>0</td>
-                                    <td>1</td>
-                                    <td>0</td>
-                                </tr>
-                                <tr >
-                                    <td>1</td>
-                                    <td>1</td>
-                                    <td>1</td>
-                                </tr>
-                            </table>
-                        </div>
-
-                    </div>
-                </section>
-
-                <section id='logic_2'>
-                    <h3>
-                        many possible logic gates can be created
-                    </h3>
-                    <img class="white" style="width: 70%" src="./figures/logic_gates.jpeg"> </img>
-                    <ul>
-                        <li class="fragment">
-                            NAND gates are <strong> universal </strong>.
-                        </li>
-                        <li class="fragment">
-                            Combine transistors to make NAND gates.
-                            Combine NAND gates for all logical operations.
-                        </li>
-                        <li class="fragment">
-                            <strong> WE MADE A CLASSICAL COMPUTER! </strong>
-                        </li>
-                    </ul>
-                </section>
-
                 <section id='counting'>
-                    <h3> let's do some classical computing </h3>
-                    <p> First, we need to learn to count in <strong>binary</strong>. </p>
+                    <h3> Before we do calculations... let's learn to <strong>count</strong> </h3>
 
                     <div style="display:flex;">
 
@@ -243,6 +181,67 @@
                         </div>
                 </section>
 
+                <section id='logic_1'>
+                    <h3 style="margin-bottom: 0.1em">
+                        Logic example: <strong>AND Gate</strong>
+                    </h3>
+
+                    <div style="display:flex; align-items: center;">
+                        <img class="white" style="height: 14em; margin-left: auto; margin-right: 5%;"
+                            src="./figures/and_gate.svg"> </img>
+
+                        <div style="font-size: 0.8em; width: 48%; margin-right: auto; margin-left: 5%;">
+                            <table class="fragment">
+                                <tr>
+                                    <th><b>A</b></th>
+                                    <th><b>B</b></th>
+                                    <th><b>OUTPUT</b></th>
+                                </tr>
+                                <tr>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr >
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section id='logic_2'>
+                    <h3>
+                        many possible logic gates can be created
+                    </h3>
+                    <img class="white" style="width: 70%" src="./figures/logic_gates.jpeg"> </img>
+                    <ul>
+                        <li class="fragment">
+                            NAND gates are <strong> universal </strong>.
+                        </li>
+                        <li class="fragment">
+                            Combine transistors to make NAND gates.
+                            Combine NAND gates for all logical operations.
+                        </li>
+                        <li class="fragment">
+                            <strong> WE MADE A CLASSICAL COMPUTER! </strong>
+                        </li>
+                    </ul>
+                </section>
+
                 <section id='half-adder'>
                     <h3> adding zeros and ones </h3>
 
@@ -298,7 +297,7 @@
                 </section>
 
                 <section id='full-adder'>
-                    <h3> adding numbers! </h3>
+                    <h3> adding (cont)</h3>
                     <p style="font-size: 0.8em">
                         Combine half-adders into full-adders, which include a CARRY IN line.
                     </p>
@@ -318,7 +317,7 @@
                 </section>
 
                 <section id='addition'>
-                    <h3>Finally, we can add some real numbers!</h3>
+                    <h3>adding (cont)</h3>
                     <p>
                         <strong>INPUTS: </strong> A = 2 (or 010), B = 3 (or 011)
                     </p>
@@ -406,15 +405,15 @@
                     </p>
                 </section>
 
-                <section id='ising'>
+                <section id='many-bits'>
                     <h3> more is different -- and may be impossible </h3>
                     <img class="plain" style="width: 80%;" src="./figures/spin_chain.svg"> </img>
                     <ul>
                         <li class="fragment">
-                            A system of N spins has $2^N$ possibler configurations
+                            A system of N spins has $2^N$ possible configurations
                         </li>
                         <li class="fragment">
-                            Any calculation must keep track of all of these configurations to determine most probable measurement result
+                            Any simulation must keep track of all of these configurations to determine most probable measurement result
                         </li>
                         <li class="fragment">
                             Adding another electron <strong>doubles</strong> the processing power needed
@@ -425,6 +424,83 @@
                 <section id='moore'>
                     <h3> increasing processing power </h3>
                     <img class="plain" style="width: 70%;" src="./figures/moores_law.svg"> </img>
+                </section>
+
+                <section id='small-transistors'>
+                    <h3> transistor size limits </h3>
+                    <div style="display:flex; align-items: center;">
+
+                        <div style="font-size: 0.8em; width: 48%; margin-left: auto; margin-right: 2%;">
+                            <ul>
+                                <li>
+                                    Modern CPU has 10 billion ($10^{10}$) transistors.
+                                </li>
+                                <li class="fragment">
+                                    Supercomputers use 100,000 processors in parallel.
+                                </li>
+                                <ul class="fragment">
+                                    <li>
+                                        About $10^{15}$ transistors in total.
+                                    </li>
+                                    <li>
+                                        Number of cells in 10 people.
+                                    </li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <div style="font-size: 0.8em; width: 48%; margin-left: 2%; margin-right: auto;">
+                            <img class="plain fragment" src="./figures/mosfet_tunneling.svg"> </img>
+                            <ul class="fragment">
+                                <li>
+                                    Probability of electron(s) spontaneously hopping across $\sim e^{-kL}$
+                                </li>
+                                <li>
+                                    L = channel length
+                                </li>
+                                <li>
+                                    k ~ electron energy
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </section>
+
+                <section id="power">
+                    <h3>power consumption limits</h3>
+
+                    <ul style="font-size: ">
+                        <li>
+                            Today's supercomputers: $10^{17}$ operations per second
+                        </li>
+                        <li class="fragment">
+                            1 billion ($10^{9}$) operations per Watt of power
+                        </li>
+                        <li class="fragment">
+                            Supercomputer consumes roughly $10^{15}$ Joules per year
+                        </li>
+                        <ul>
+                            <li class="fragment">
+                                World produces about $10^{21}$ Joules per year
+                            </li>
+                        </ul>
+                        <li class="fragment">
+                            $2.5 million CAD in electricity per year
+                        </li>
+                    </ul>
+
+                </section>
+
+                <section id="power-2">
+                    <h3>What do we get for all that power?</h3>
+                    <img class="plain" style="width: 80%;" src="./figures/spin_chain.svg"> </img>
+                    <p class="fragment">
+                        Simulate interactions between <strong>45</strong> quantum mechanical objects
+                    </p>
+                    <p class="fragment">
+                        Using current technology and <strong>all of the world's electricity</strong>, we can get to about 70.
+                    </p>
                 </section>
 
                 <!-- CONCLUSION -->
