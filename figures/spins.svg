@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1"
+	 id="svg2" inkscape:output_extension="org.inkscape.output.svg.inkscape" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" sodipodi:version="0.32" inkscape:version="0.46" sodipodi:docname="HydrogenLineParallel.svg"
+	 xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="272.622" height="276.918" viewBox="102.588 -53.813 272.622 276.918"
+	 overflow="visible" enable-background="new 102.588 -53.813 272.622 276.918" xml:space="preserve">
+<sodipodi:namedview  inkscape:window-x="0" inkscape:window-y="0" inkscape:current-layer="svg2" guidetolerance="10.0" gridtolerance="10.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" showgrid="false" inkscape:zoom="1.4142136" inkscape:cx="392.52303" inkscape:cy="160.18586" inkscape:window-width="1280" inkscape:window-height="948" inkscape:pageshadow="2" inkscape:pageopacity="0.0" objecttolerance="10.0" id="base">
+	</sodipodi:namedview>
+<defs>
+	
+	
+		<inkscape:perspective  inkscape:persp3d-origin="250 : 66.666667 : 1" sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 100 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="500 : 100 : 1" id="perspective27">
+		</inkscape:perspective>
+</defs>
+<radialGradient id="path4662_10_" cx="168.4541" cy="72.7141" r="37.2528" gradientTransform="matrix(1 0 0 -1 0 178.7203)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#64B4FF"/>
+	<stop  offset="1" style="stop-color:#0000FF"/>
+</radialGradient>
+<path id="path4662" sodipodi:type="arc" sodipodi:cx="234.989" sodipodi:cy="113.10955" sodipodi:rx="37.253143" sodipodi:ry="36.355476" fill="url(#path4662_10_)" d="
+	M192.242,120.724c0.014,20.574-16.654,37.264-37.229,37.276c-20.574,0.014-37.264-16.654-37.276-37.229c0-0.016,0-0.032,0-0.048
+	c-0.014-20.574,16.654-37.264,37.229-37.277c20.574-0.013,37.264,16.655,37.276,37.229
+	C192.242,120.692,192.242,120.707,192.242,120.724z"/>
+<line id="line10" fill="none" stroke="#FFFFFF" stroke-width="4" x1="154.989" y1="94.106" x2="154.979" y2="40.105"/>
+<path id="path12" fill="#FFFFFF" d="M150.876,30.659c-1.996,6.613-3.835,10.913-5.962,16.218l20.176-0.004
+	c-0.901-1.898-3.973-9.603-5.97-16.216c-2.14-7.077-3.604-13.495-4.127-17.657C154.474,17.162,153.012,23.58,150.876,30.659z"/>
+<line id="line14" fill="none" stroke="#FFFFFF" stroke-width="4" x1="154.979" y1="158.106" x2="154.979" y2="192.106"/>
+<radialGradient id="path4662_11_" cx="304.4541" cy="77.7122" r="37.2528" gradientTransform="matrix(1 0 0 -1 0 178.7203)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFC0C0"/>
+	<stop  offset="1" style="stop-color:#FF0000"/>
+</radialGradient>
+<path id="path4662_1_" sodipodi:type="arc" sodipodi:cx="234.989" sodipodi:cy="113.10955" sodipodi:rx="37.253143" sodipodi:ry="36.355476" fill="url(#path4662_11_)" d="
+	M328.242,115.724c0.014,20.574-16.654,37.264-37.229,37.276c-20.574,0.014-37.264-16.654-37.276-37.229c0-0.016,0-0.032,0-0.048
+	c-0.014-20.574,16.654-37.264,37.23-37.276c20.574-0.014,37.264,16.654,37.276,37.229
+	C328.242,115.692,328.242,115.707,328.242,115.724z"/>
+<line id="line10_1_" fill="none" stroke="#FFFFFF" stroke-width="4" x1="292.015" y1="142" x2="292.025" y2="196"/>
+<path id="path12_1_" fill="#FFFFFF" d="M296.128,205.447c1.996-6.613,3.835-10.913,5.962-16.218l-20.176,0.004
+	c0.901,1.897,3.973,9.603,5.97,16.216c2.14,7.077,3.604,13.495,4.127,17.657C292.53,218.944,293.992,212.526,296.128,205.447z"/>
+<line id="line14_1_" fill="none" stroke="#FFFFFF" stroke-width="4" x1="292.025" y1="78" x2="292.025" y2="44"/>
+<text transform="matrix(1 0 0 1 102.5879 -26.3488)" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="32">spin-up</text>
+<text transform="matrix(1 0 0 1 228.5879 5.6512)" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="32">spin-down</text>
+</svg>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1"
+	 id="svg2" inkscape:output_extension="org.inkscape.output.svg.inkscape" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" sodipodi:version="0.32" inkscape:version="0.46" sodipodi:docname="HydrogenLineParallel.svg"
+	 xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="946.48" height="212.607" viewBox="-255.749 -18.501 946.48 212.607"
+	 overflow="visible" enable-background="new -255.749 -18.501 946.48 212.607" xml:space="preserve">
+<sodipodi:namedview  inkscape:window-x="0" inkscape:window-y="0" inkscape:current-layer="svg2" guidetolerance="10.0" gridtolerance="10.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" showgrid="false" inkscape:zoom="1.4142136" inkscape:cx="392.52303" inkscape:cy="160.18586" inkscape:window-width="1280" inkscape:window-height="948" inkscape:pageshadow="2" inkscape:pageopacity="0.0" objecttolerance="10.0" id="base">
+	</sodipodi:namedview>
+<defs>
+	
+	
+		<inkscape:perspective  inkscape:persp3d-origin="250 : 66.666667 : 1" sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 100 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="500 : 100 : 1" id="perspective27">
+		</inkscape:perspective>
+</defs>
+<radialGradient id="path4662_13_" cx="404.4537" cy="684.2886" r="37.2522" gradientTransform="matrix(1 0 0 1 0 -613.2793)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#64B4FF"/>
+	<stop  offset="1" style="stop-color:#0000FF"/>
+</radialGradient>
+<path id="path4662_1_" sodipodi:type="arc" sodipodi:cx="234.989" sodipodi:cy="113.10955" sodipodi:rx="37.253143" sodipodi:ry="36.355476" fill="url(#path4662_13_)" d="
+	M428.243,85.724c0.014,20.574-16.654,37.264-37.229,37.275c-20.574,0.015-37.265-16.653-37.276-37.229c0-0.016,0-0.031,0-0.048
+	c-0.014-20.574,16.654-37.264,37.23-37.276c20.574-0.014,37.264,16.654,37.275,37.228C428.243,85.692,428.243,85.707,428.243,85.724
+	z"/>
+<line id="line10_1_" fill="none" stroke="#FFFFFF" stroke-width="4" x1="392.015" y1="112" x2="392.025" y2="166"/>
+<path id="path12_1_" fill="#FFFFFF" d="M396.128,175.447c1.996-6.613,3.836-10.912,5.963-16.218l-20.176,0.004
+	c0.9,1.897,3.973,9.603,5.969,16.216c2.141,7.077,3.604,13.495,4.128,17.657C392.53,188.944,393.993,182.526,396.128,175.447z"/>
+<line id="line14_1_" fill="none" stroke="#FFFFFF" stroke-width="4" x1="392.025" y1="48" x2="392.025" y2="14"/>
+<radialGradient id="path4662_14_" cx="539.943" cy="687.7866" r="37.2521" gradientTransform="matrix(1 0 0 1 0 -613.2793)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#64B4FF"/>
+	<stop  offset="1" style="stop-color:#0000FF"/>
+</radialGradient>
+<path id="path4662_3_" sodipodi:type="arc" sodipodi:cx="234.989" sodipodi:cy="113.10955" sodipodi:rx="37.253143" sodipodi:ry="36.355476" fill="url(#path4662_14_)" d="
+	M563.731,89.223c0.014,20.574-16.654,37.264-37.229,37.275c-20.574,0.015-37.265-16.653-37.276-37.229c0-0.016,0-0.031,0-0.048
+	c-0.014-20.574,16.654-37.264,37.229-37.277c20.574-0.013,37.265,16.655,37.277,37.229
+	C563.731,89.191,563.731,89.206,563.731,89.223z"/>
+<line id="line10_3_" fill="none" stroke="#FFFFFF" stroke-width="4" x1="526.477" y1="62.605" x2="526.467" y2="8.604"/>
+<path id="path12_3_" fill="#FFFFFF" d="M522.364-0.842c-1.996,6.613-3.834,10.913-5.961,16.218l20.176-0.004
+	c-0.901-1.898-3.973-9.603-5.971-16.216c-2.14-7.077-3.604-13.495-4.127-17.657C525.963-14.339,524.501-7.921,522.364-0.842z"/>
+<line id="line14_3_" fill="none" stroke="#FFFFFF" stroke-width="4" x1="526.467" y1="126.605" x2="526.467" y2="160.605"/>
+<radialGradient id="path4662_15_" cx="666.942" cy="682.7886" r="37.2522" gradientTransform="matrix(1 0 0 1 0 -613.2793)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#64B4FF"/>
+	<stop  offset="1" style="stop-color:#0000FF"/>
+</radialGradient>
+<path id="path4662_2_" sodipodi:type="arc" sodipodi:cx="234.989" sodipodi:cy="113.10955" sodipodi:rx="37.253143" sodipodi:ry="36.355476" fill="url(#path4662_15_)" d="
+	M690.731,84.223c0.014,20.574-16.654,37.264-37.229,37.275c-20.574,0.015-37.265-16.653-37.276-37.229c0-0.016,0-0.031,0-0.048
+	c-0.014-20.574,16.654-37.264,37.23-37.276c20.574-0.014,37.264,16.654,37.275,37.228C690.731,84.191,690.731,84.206,690.731,84.223
+	z"/>
+<line id="line10_2_" fill="none" stroke="#FFFFFF" stroke-width="4" x1="654.504" y1="110.499" x2="654.513" y2="164.499"/>
+<path id="path12_2_" fill="#FFFFFF" d="M658.616,173.946c1.996-6.613,3.836-10.912,5.963-16.218l-20.176,0.004
+	c0.9,1.897,3.973,9.603,5.969,16.216c2.141,7.077,3.604,13.495,4.128,17.657C655.018,187.443,656.481,181.025,658.616,173.946z"/>
+<line id="line14_2_" fill="none" stroke="#FFFFFF" stroke-width="4" x1="654.513" y1="46.499" x2="654.513" y2="12.499"/>
+<radialGradient id="path4662_16_" cx="-205.0311" cy="690.2886" r="37.2521" gradientTransform="matrix(1 0 0 1 0 -613.2793)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#64B4FF"/>
+	<stop  offset="1" style="stop-color:#0000FF"/>
+</radialGradient>
+<path id="path4662_5_" sodipodi:type="arc" sodipodi:cx="234.989" sodipodi:cy="113.10955" sodipodi:rx="37.253143" sodipodi:ry="36.355476" fill="url(#path4662_16_)" d="
+	M-181.244,91.724c0.014,20.574-16.654,37.264-37.229,37.275c-20.574,0.015-37.264-16.653-37.276-37.229c0-0.016,0-0.031,0-0.048
+	c-0.014-20.574,16.654-37.264,37.229-37.277c20.574-0.013,37.264,16.655,37.276,37.229
+	C-181.244,91.692-181.244,91.707-181.244,91.724z"/>
+<line id="line10_5_" fill="none" stroke="#FFFFFF" stroke-width="4" x1="-218.497" y1="65.106" x2="-218.507" y2="11.105"/>
+<path id="path12_5_" fill="#FFFFFF" d="M-222.61,1.659c-1.996,6.613-3.835,10.913-5.962,16.218l20.176-0.004
+	c-0.901-1.898-3.973-9.603-5.97-16.216c-2.14-7.077-3.604-13.495-4.127-17.657C-219.012-11.838-220.474-5.42-222.61,1.659z"/>
+<line id="line14_5_" fill="none" stroke="#FFFFFF" stroke-width="4" x1="-218.507" y1="129.106" x2="-218.507" y2="163.106"/>
+<radialGradient id="path4662_17_" cx="-68.0321" cy="685.2905" r="37.2522" gradientTransform="matrix(1 0 0 1 0 -613.2793)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#64B4FF"/>
+	<stop  offset="1" style="stop-color:#0000FF"/>
+</radialGradient>
+<path id="path4662_4_" sodipodi:type="arc" sodipodi:cx="234.989" sodipodi:cy="113.10955" sodipodi:rx="37.253143" sodipodi:ry="36.355476" fill="url(#path4662_17_)" d="
+	M-44.243,86.724c0.014,20.574-16.654,37.264-37.229,37.275c-20.574,0.015-37.265-16.653-37.276-37.229c0-0.016,0-0.031,0-0.048
+	c-0.014-20.574,16.654-37.265,37.23-37.276c20.574-0.014,37.264,16.654,37.275,37.229C-44.243,86.692-44.243,86.707-44.243,86.724z"
+	/>
+<line id="line10_4_" fill="none" stroke="#FFFFFF" stroke-width="4" x1="-80.471" y1="113" x2="-80.461" y2="167"/>
+<path id="path12_4_" fill="#FFFFFF" d="M-76.358,176.447c1.996-6.613,3.836-10.912,5.963-16.218l-20.176,0.004
+	c0.9,1.897,3.973,9.603,5.969,16.216c2.141,7.077,3.604,13.495,4.128,17.657C-79.956,189.944-78.493,183.526-76.358,176.447z"/>
+<line id="line14_4_" fill="none" stroke="#FFFFFF" stroke-width="4" x1="-80.461" y1="49" x2="-80.461" y2="15"/>
+<radialGradient id="path4662_18_" cx="67.9674" cy="684.2905" r="37.2522" gradientTransform="matrix(1 0 0 1 0 -613.2793)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#64B4FF"/>
+	<stop  offset="1" style="stop-color:#0000FF"/>
+</radialGradient>
+<path id="path4662_6_" sodipodi:type="arc" sodipodi:cx="234.989" sodipodi:cy="113.10955" sodipodi:rx="37.253143" sodipodi:ry="36.355476" fill="url(#path4662_18_)" d="
+	M91.756,85.724C91.77,106.298,75.102,122.988,54.528,123c-20.575,0.015-37.265-16.653-37.277-37.229c0-0.016,0-0.031,0-0.048
+	c-0.014-20.574,16.654-37.265,37.23-37.276c20.574-0.014,37.264,16.654,37.275,37.229C91.756,85.692,91.756,85.707,91.756,85.724z"
+	/>
+<line id="line10_6_" fill="none" stroke="#FFFFFF" stroke-width="4" x1="55.53" y1="112" x2="55.54" y2="166"/>
+<path id="path12_6_" fill="#FFFFFF" d="M59.641,175.447c1.996-6.613,3.836-10.912,5.963-16.218l-20.175,0.004
+	c0.9,1.897,3.972,9.603,5.968,16.216c2.141,7.077,3.605,13.495,4.129,17.657C56.044,188.944,57.506,182.526,59.641,175.447z"/>
+<line id="line14_6_" fill="none" stroke="#FFFFFF" stroke-width="4" x1="55.54" y1="48" x2="55.54" y2="14"/>
+<ellipse fill="#DCE0DF" cx="157.988" cy="84.235" rx="6.749" ry="6"/>
+<ellipse fill="#DCE0DF" cx="222.988" cy="84.235" rx="6.749" ry="6"/>
+<ellipse fill="#DCE0DF" cx="284.988" cy="84.235" rx="6.749" ry="6"/>
+</svg>
