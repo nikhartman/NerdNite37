@@ -634,18 +634,18 @@
                 <section id='qubit-candidates'>
                     <h3>Real Qubits</h3>
 
-                    <div style="display:flex;">
-                        <figure style="font-size: 0.6em">
+                    <div style="display:flex">
+                        <figure style="font-size: 0.6em; width=50%">
                             <img class="white"  src="./figures/trapped_ions.JPG"> </img>
                             <figcaption><strong>Trapped Atom</strong>:<br /> stable, difficult to couple</figcaption>
                         </figure>
 
-                        <figure style="font-size: 0.6em">
+                        <figure style="font-size: 0.6em; width=50%">
                             <img class="white" src="./figures/phase_qubit.jpg"> </img>
                             <figcaption><strong>Superconducting Ring</strong>:<br /> not stable, easy to couple</figcaption>
                         </figure>
 
-                        <figure style="font-size: 0.6em">
+                        <figure style="font-size: 0.6em; width=50%">
                             <img class="white" src="./figures/spin_qubit.png"> </img>
                             <figcaption><strong>Electron Spins</strong>:<br /> kind of stable, kind of hard to couple</figcaption>
                         </figure>
@@ -653,39 +653,67 @@
                 </section>
 
                 <section id='status' data-background-image="./figures/google_fridge.jpg">
-                    <h3>Real Quantum Computers</h3>
+                    <section id="big-three">
 
-                    <ul>
-                        <li>
-                            Superconducting rings currently winning
-                        </li>
+                        <h3>Real Quantum Computers</h3>
+
                         <ul>
+                            <li>
+                                Superconducting rings currently winning
+                            </li>
+                            <ul>
+                                <li class="fragment">
+                                    Intel -- 49 qubits
+                                </li>
+                                <li class="fragment">
+                                    IBM -- 50 qubits
+                                </li>
+                                <li class="fragment">
+                                    Google -- 72 qubits
+                                </li>
+                            </ul>
+
                             <li class="fragment">
-                                Intel -- 49 qubits
+                                Not quite enough... yet
+                            </li>
+                            <ul>
+                                <li class="fragment">
+                                    Qubits stable for ~100 micro-seconds
+                                </li>
+                                <li class="fragment">
+                                    Must stay very cold and isolated from environment
+                                </li>
+                                <li  class="fragment">
+                                    Correcting errors requires additional qubits <br />~2N to 10N
+                                </li>
+                            </ul>
+                        </ul>
+                    </section>
+
+                    <section id="dwave">
+                        <h3>What about our hometown heros?!</h3>
+                        <p>
+                            D-Wave makes <strong>quantum annealing</strong> processors. Not universal quantum comptuers.
+                        </p>
+                        <img class="plain" style="width: 80%;" src="./figures/spin_chain.svg"> </img>
+                        <ul style="font-size: 0.8em;">
+                            <li class="fragment">
+                                Define interactions between qubits.
+                                <ul>
+                                    <li>
+                                        Example: spins have lower energy when pointed in the same direction as neighbor(s).
+                                    </li>
+                                </ul>
                             </li>
                             <li class="fragment">
-                                IBM -- 50 qubits
+                                Start with high energy state.
                             </li>
                             <li class="fragment">
-                                Google -- 72 qubits
+                                System evolves to lowest energy state over time.
                             </li>
                         </ul>
 
-                        <li class="fragment">
-                            Not quite enough... yet
-                        </li>
-                        <ul>
-                            <li class="fragment">
-                                Qubits stable for ~100 micro-seconds
-                            </li>
-                            <li class="fragment">
-                                Must stay very cold and isolated from environment
-                            </li>
-                            <li  class="fragment">
-                                Correcting errors requires additional qubits <br />~2N to 10N
-                            </li>
-                        </ul>
-                    </ul>
+                    </section>
 
                 </section>
 
