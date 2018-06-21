@@ -653,12 +653,10 @@
                         <li>
                             Many atoms forming a single superposition are <strong>entangled</strong>.
                         </li>
-                    </ul>
-                    <p class="fragment">
-                        $$superposition = a_0 \cdot \downarrow + a_1 \cdot \downarrow + a_2 \cdot \downarrow + a_3 \cdot \downarrow + \\
-                            a_4 \cdot \downarrow + a_5 \cdot \downarrow + a_6 \cdot \downarrow + a_7 \cdot \downarrow$$
-                    </p>
-                    <ul style="font-size: 0.8em">
+                        <li class="fragment">
+                            $$superposition = a_0 \cdot \downarrow + a_1 \cdot \downarrow + a_2 \cdot \downarrow + a_3 \cdot \downarrow + \\
+                                a_4 \cdot \downarrow + a_5 \cdot \downarrow + a_6 \cdot \downarrow + a_7 \cdot \downarrow$$
+                        </li>
                         <li class="fragment">
                             We can perform logical gates (if-then statements) on these quantum bits!
                         </li>
@@ -692,25 +690,56 @@
 
                 </section>
 
-                <section id='qubit-candidates'>
-                    <h3>Real Qubits</h3>
+                <section id="real-qubits">
 
-                    <div style="display:flex">
-                        <figure style="font-size: 0.6em; width=50%">
-                            <img class="white"  src="./figures/trapped_ions.JPG"> </img>
-                            <figcaption><strong>Trapped Atom</strong>:<br /> stable, difficult to couple</figcaption>
-                        </figure>
+                    <section id='qubit-candidates'>
+                        <h3>Real Qubit</h3>
 
-                        <figure style="font-size: 0.6em; width=50%">
-                            <img class="white" src="./figures/phase_qubit.jpg"> </img>
-                            <figcaption><strong>Superconducting Ring</strong>:<br /> not stable, easy to couple</figcaption>
-                        </figure>
+                        <div style="display:flex; align-items: center;">
+                            <img class="white" style="width:48%; margin-left: auto; margin-right: 2%;"
+                                src="./figures/phase_qubit.jpg"> </img>
 
-                        <figure style="font-size: 0.6em; width=50%">
-                            <img class="white" src="./figures/spin_qubit.png"> </img>
-                            <figcaption><strong>Electron Spins</strong>:<br /> kind of stable, kind of hard to couple</figcaption>
-                        </figure>
-                    </div>
+                            <div style="font-size: 0.8em; width: 48%; margin-right: auto; margin-left: 2%;">
+                                <ul>
+                                    <li>
+                                        <strong>Superconducting Ring</strong>
+                                    </li>
+                                    <li class="fragment">
+                                        Built on pieces of semiconductor
+                                    </li>
+                                    <li class="fragment">
+                                        Easy to connect many qubits
+                                    <ul class="fragment">
+                                        <li>
+                                            Just like connecting many transistors in our classical computer
+                                        </li>
+                                    </ul>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <section id='all-candidates'>
+                        <h3>Real Qubits</h3>
+
+                        <div style="display:flex">
+                            <figure style="font-size: 0.6em; width=50%">
+                                <img class="white"  src="./figures/trapped_ions.JPG"> </img>
+                                <figcaption><strong>Trapped Atom</strong>:<br /> stable, difficult to couple</figcaption>
+                            </figure>
+
+                            <figure style="font-size: 0.6em; width=50%">
+                                <img class="white" src="./figures/phase_qubit.jpg"> </img>
+                                <figcaption><strong>Superconducting Ring</strong>:<br /> not stable, easy to couple</figcaption>
+                            </figure>
+
+                            <figure style="font-size: 0.6em; width=50%">
+                                <img class="white" src="./figures/spin_qubit.png"> </img>
+                                <figcaption><strong>Electron Spins</strong>:<br /> kind of stable, kind of hard to couple</figcaption>
+                            </figure>
+                        </div>
+                    </section>
                 </section>
 
                 <section id='status' data-background-image="./figures/google_fridge.jpg">
@@ -719,33 +748,31 @@
                         <h3>Real Quantum Computers</h3>
 
                         <ul>
-                            <li>
-                                Superconducting rings currently winning
+                            <li class="fragment">
+                                Intel -- 49 qubits
                             </li>
-                            <ul>
-                                <li class="fragment">
-                                    Intel -- 49 qubits
-                                </li>
-                                <li class="fragment">
-                                    IBM -- 50 qubits
-                                </li>
-                                <li class="fragment">
-                                    Google -- 72 qubits
-                                </li>
-                            </ul>
+                            <li class="fragment">
+                                IBM -- 50 qubits
+                            </li>
+                            <li class="fragment">
+                                Google -- 72 qubits
+                            </li>
 
                             <li class="fragment">
                                 Not quite enough... yet
                             </li>
                             <ul>
                                 <li class="fragment">
-                                    Qubits stable for ~100 micro-seconds
+                                    Superconducting states stable for ~100 micro-seconds
                                 </li>
                                 <li class="fragment">
                                     Must stay very cold and isolated from environment
                                 </li>
                                 <li  class="fragment">
-                                    Correcting errors requires additional qubits <br />~2N to 10N
+                                    Correcting errors requires additional qubits
+                                </li>
+                                <li  class="fragment">
+                                    Need ~100-500 for 50 atom simulation
                                 </li>
                             </ul>
                         </ul>
