@@ -104,10 +104,10 @@
                             <table>
                                 <thead>
                                     <tr>
-                                        <td><b>2^2</b></td>
-                                        <td><b>2^1</b></td>
-                                        <td><b>2^0</b></td>
-                                        <td><b>sum</b></td>
+                                        <td><b>$2^2=4$</b></td>
+                                        <td><b>$2^1=2$</b></td>
+                                        <td><b>$2^0=1$</b></td>
+                                        <td><b>SUM</b></td>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -166,7 +166,7 @@
 
                 <section id='logic_1'>
                     <h3 style="margin-bottom: 0.1em">
-                        Connecting Transistors to do logic
+                        Transistors to logic gates (if-then statements)
                     </h3>
 
                     <div style="display:flex; align-items: center;">
@@ -174,9 +174,6 @@
                             src="./figures/and_gate.svg"> </img>
 
                         <div style="font-size: 0.8em; width: 60%; margin-right: auto; margin-left: 5%;">
-                            <p>
-                                Logic gates are "if-then" statements
-                            </p>
                             <table class="fragment">
                                 <th colspan="3"><strong>AND-gate</strong></th>
                                 <tr>
@@ -373,26 +370,15 @@
                 </section>
 
                 <section id="simulation-examples">
-                    <h3>useful things to simulate</h3>
+                    <section id="one-example">
 
-                    <div style="display:flex; align-items: flex-end">
-                        <figure style="font-size: 0.6em; width: 50%;">
-                            <img class="white"  src="./figures/fertilizer.jpg"> </img>
-                            <figcaption>
-                                <ul>
-                                    <li>
-                                        Ammonia molecules and nitrogen fixation processes: $N_2$ --> $NH_3$.
-                                    </li>
-                                    <li>
-                                        Why are plants so much better at this?
-                                    </li>
-                                </ul>
-                            </figcaption>
-                        </figure>
+                        <h3>example: interesting (but difficult) simulation </h3>
 
-                        <figure style="font-size: 0.6em; width: 50%;">
-                            <img class="white"  src="./figures/random_drug.png"> </img>
-                            <figcaption>
+                        <div style="display:flex; align-items: center;">
+                            <img class="white" style="width:48%; margin-left: auto; margin-right: 2%;"
+                                src="./figures/random_drug.png"> </img>
+
+                            <div style="font-size: 0.8em; width: 48%; margin-right: auto; margin-left: 2%;">
                                 <ul>
                                     <li>
                                         Simulating molecules for better/safer drugs
@@ -401,25 +387,45 @@
                                         Quanum mechanics determines molecule shape, interactions, and efficacy
                                     </li>
                                 </ul>
-                                <br />
-                            </figcaption>
-                        </figure>
+                            </div>
 
-                        <figure style="font-size: 0.6em; width: 50%;">
-                            <img class="white"  src="./figures/meissner.jpg"> </img>
-                            <figcaption>
-                                <ul>
-                                    <li>
-                                        Search for new materials with specific properties
-                                    </li>
-                                    <li>
-                                        Room temperature superconductivity and other (less lofty) goals
-                                    </li>
-                                </ul>
-                            </figcaption>
-                        </figure>
+                        </div>
 
-                    </div>
+                    </section>
+
+                    <section id="additional-examples">
+
+                        <div style="display:flex; align-items: flex-end">
+
+                            <figure style="font-size: 0.6em; width: 50%;">
+                                <img class="white"  src="./figures/fertilizer.jpg"> </img>
+                                <figcaption>
+                                    <ul>
+                                        <li>
+                                            Ammonia molecules and nitrogen fixation processes: $N_2$ --> $NH_3$.
+                                        </li>
+                                        <li>
+                                            Why are plants so much better at this?
+                                        </li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+
+                            <figure style="font-size: 0.6em; width: 50%;">
+                                <img class="white"  src="./figures/meissner.jpg"> </img>
+                                <figcaption>
+                                    <ul>
+                                        <li>
+                                            Search for new materials with specific properties
+                                        </li>
+                                        <li>
+                                            Room temperature superconductivity and other (less lofty) goals
+                                        </li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </section>
 
 
                 </section>
@@ -434,24 +440,24 @@
                          A fundamental property of the very small world.
                     </p>
                     <div style="display:flex; align-items: center;">
-                        <img class="plain fragment" style="height: 10em; margin-left: auto; margin-right: 5%;"
+                        <img class="plain fragment" style="width:35%; margin-left: auto; margin-right: 5%;"
                             src="./figures/spins.svg"> </img>
 
-                        <div style="font-size: 0.8em; width: 48%; margin-right: auto; margin-left: 5%;">
+                        <div style="font-size: 0.8em; width: 55%; margin-right: auto; margin-left: 5%;">
                             <ul>
                                 <li class="fragment">
-                                    The only results we can measure are spin-up or spin-down
+                                    The only results we can measure are $\uparrow$ or $\downarrow$
                                 </li>
                                 <li class="fragment">
-                                    Before measurement it can exist in a combination (<strong>superposition</strong>) of -up and -down.
+                                    Before measurement it can exist in a combination (<strong>superposition</strong>) of both states.
                                 </li>
                             </ul>
                             <p class="fragment">
-                                $\left| \psi \right\rangle = a \left| \downarrow \right\rangle + b \left| \uparrow \right\rangle$
+                                superposition = $a \cdot \downarrow + b \cdot \uparrow $
                             </p>
                             <ul>
                                 <li class="fragment">
-                                    $\left|a\right|^2$ and $\left|b\right|^2$ are the probabilities of measuring spin -down and -up
+                                    $a$ and $b$ are the probabilities of measuring the atom pointing down or up
                                 </li>
                             </ul>
                         </div>
@@ -487,23 +493,64 @@
                     <img class="plain" style="width: 80%;" src="./figures/spin_chain.svg"> </img>
                     <ul>
                         <li class="fragment">
-                            A system of N spins has $2^N$ possible configurations
+                            A system of N atoms has $2^N$ possible configurations
                         </li>
+                        <ul>
+                            <li class="fragment">
+                                $ 2 \cdot 2 \cdot 2 \ldots  2 \cdot 2 \cdot 2 = 2^N $
+                            </li>
+                        </ul>
                         <li class="fragment">
                             Any simulation must keep track of all of these configurations to determine most probable measurement result
                         </li>
                         <li class="fragment">
-                            Adding another electron <strong>doubles</strong> the processing power needed
+                            Adding another atom <strong>doubles</strong> the processing power needed
                         </li>
                     </ul>
                 </section>
 
                 <section id='moore'>
-                    <h3> increasing processing power </h3>
+                    <h3> ok.. let's double the processing power! </h3>
                     <img class="plain" style="width: 70%;" src="./figures/moores_law.svg"> </img>
                 </section>
 
-                <section id='small-transistors'>
+                <section id="transistor-limits">
+                    <section id="power">
+                        <h3>One limit on this plan</h3>
+
+                        <ul style="font-size: ">
+                            <li class="fragment">
+                                1 billion operations per second ~ 1 smartphone
+                            </li>
+                            <ul class="fragment">
+                                <li>
+                                    Uses about as much power as an LED light bulb
+                                </li>
+                            </ul>
+                            <li class="fragment">
+                                Today's supercomputers: 100 million-billion ($10^{17}$) operations per second
+                            </li>
+                            <ul>
+                                <li class="fragment">
+                                    About as much power as New York City
+                                </li>
+                                <li class="fragment">
+                                    $2.5 million CAD in electricity per year
+                                </li>
+                            </ul>
+                            <li class="fragment">
+                                That is roughly 1 million billion ($10^{15}$) Joules per year
+                            </li>
+                            <ul>
+                                <li class="fragment">
+                                    World produces about 100 billion billion ($10^{21}$) Joules per year
+                                </li>
+                            </ul>
+                        </ul>
+
+                    </section>
+
+                    <section id='small-transistors'>
                     <h3> transistor size limits </h3>
                     <div style="display:flex; align-items: center;">
 
@@ -544,44 +591,21 @@
 
                 </section>
 
-                <section id="power">
-                    <h3>power consumption limits</h3>
-
-                    <ul style="font-size: ">
-                        <li>
-                            Today's supercomputers: $10^{17}$ operations per second
-                        </li>
-                        <li class="fragment">
-                            1 billion ($10^{9}$) operations per Watt of power
-                        </li>
-                        <li class="fragment">
-                            Supercomputer consumes roughly $10^{15}$ Joules per year
-                        </li>
-                        <ul>
-                            <li class="fragment">
-                                World produces about $10^{21}$ Joules per year
-                            </li>
-                        </ul>
-                        <li class="fragment">
-                            $2.5 million CAD in electricity per year
-                        </li>
-                    </ul>
-
                 </section>
 
                 <section id="power-2">
                     <h3>What do we get for all that power?</h3>
                     <img class="plain" style="width: 80%;" src="./figures/spin_chain.svg"> </img>
                     <p class="fragment">
-                        Simulate interactions between <strong>45</strong> quantum mechanical objects
+                        Simulate interactions between <strong>45</strong> atoms
                     </p>
                     <p class="fragment">
-                        Using current technology and <strong>all of the world's electricity</strong>, we can get to about <b>70</b>.
+                        Using current technology and <strong>all of the world's electricity</strong>, we can get to about <b>70</b> atoms.
                     </p>
                 </section>
 
                 <section id="feynman">
-                    <h3> talking our way out of the problem </h3>
+                    <h3> Richard Feynman suggests a way out </h3>
                     <img class="plain" style="width: 60%;" src="./figures/feynman.png"> </img>
                     <p>
                         If simulating quantum mechanics on a classical computer is too costly, build a <strong>quantum computer</strong>.
@@ -589,14 +613,9 @@
                 </section>
 
                 <section id='inventing'>
-                    <h3 style="margin-bottom: 0.5em;">
-                            Quantum analogue of the transistor: a <strong>quantum bit</strong>
-                    </h3>
-                    <img class="plain" style="width: 70%; margin-top: 0.5em" src="./figures/bloch_sphere.svg"> </img>
-                </section>
+                    <h3 style="margin-bottom: 0.1em"> Transistors + Quantum Mechanics = <strong>quantum bits</strong> </h3>
+                    <img class="plain" style="width: 70%; margin-top: 0.1em" src="./figures/bloch_sphere.svg"> </img>
 
-                <section id='inventing-2'>
-                    <img class="plain" style="width: 70%;" src="./figures/bloch_sphere.svg"> </img>
                     <div style="display:flex; align-items: flex-start;">
 
                         <div style="font-size: 0.8em; width: 48%; margin-left: auto; margin-right: 2%;">
@@ -604,21 +623,19 @@
                                 <li>
                                     Always 0 or 1
                                 </li>
-                                <ul>
-                                    <li>
-                                        Recall: channel open or closed
-                                    </li>
-                                </ul>
+                                <li>
+                                    Channel open or closed
+                                </li>
                             </ul>
                         </div>
 
                         <div style="font-size: 0.8em; width: 48%; margin-left: 2%; margin-right: auto;">
                             <ul>
                                 <li>
-                                    Qubit can be in any combination (superposition) of 0 and 1
+                                    Any superposition of 0 and 1
                                 </li>
                                 <li>
-                                    Measuring the result collapses the state to a single outcome.
+                                    Atom up or down
                                 </li>
                             </ul>
 
@@ -634,19 +651,22 @@
                             Qubits can be combine to make more complicated superpositions
                         </li>
                         <li>
-                            Multiple qubits forming a single quantum superposition are <strong>entangled</strong>.
+                            Many atoms forming a single superposition are <strong>entangled</strong>.
                         </li>
                     </ul>
                     <p class="fragment">
-                        $$\left| \psi \right\rangle = a_0 \left| 000 \right\rangle + a_1 \left| 100 \right\rangle + a_2 \left| 010 \right\rangle + a_3 \left| 001 \right\rangle + \\
-                            a_4 \left| 110 \right\rangle + a_5 \left| 101 \right\rangle + a_6 \left| 011 \right\rangle + a_7 \left| 111 \right\rangle$$
+                        $$superposition = a_0 \cdot \downarrow + a_1 \cdot \downarrow + a_2 \cdot \downarrow + a_3 \cdot \downarrow + \\
+                            a_4 \cdot \downarrow + a_5 \cdot \downarrow + a_6 \cdot \downarrow + a_7 \cdot \downarrow$$
                     </p>
                     <ul style="font-size: 0.8em">
                         <li class="fragment">
-                            A logical operation (recall AND/OR/XOR) can change this entangled state.
+                            We can perform logical gates (if-then statements) on these quantum bits!
                         </li>
                         <li class="fragment">
-                            <strong>We invented a quantum computer!</strong>
+                            Connect quantum bits with a universal gate like (NAND)
+                        </li>
+                        <li class="fragment">
+                             <strong>We invented a quantum computer!</strong>
                         </li>
                     </ul>
 
