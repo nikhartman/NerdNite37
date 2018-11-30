@@ -34,14 +34,22 @@
 				<p style="font-size: 1em;">
 					... from transistors to quantum supremacy
 				</p>
-				<p style="font-size: 1.2em">
+				<!-- <p style="font-size: 1.2em">
 					<strong> Nik Hartman, PhD </strong> <br> <br />
 					<span style="font-size: 0.7em"> https://nikhartman.github.io/NerdNite37 </span>
-				</p>
-				<p>
+				</p> -->
+				<!-- <p>
 					Nerd Nite YVR<br>
 					June 20th, 2018
+				</p> -->
+			</section>
+
+			<section id="author">
+				<img style="height: 6em;" src="./figures/nik-photo.png"> </img>
+				<p style="font-size: 0.8em;">
+					Slides by Nik Hartman. Originally for Nerd Nite YVR #37.
 				</p>
+
 			</section>
 
 			<section id="outline">
@@ -71,7 +79,7 @@
         </section> -->
 
 			<section id='mosfet'>
-				<h3> Transistors = Semi-Conductor Juncitons </h3>
+				<h3> Transistors = Semiconductor Junctions </h3>
 				<div style="text-align: center">
 					<img class="white" style="width: 45%; margin-right: 2%; margin-left: auto; margin-bottom: 0.5em;" src="./figures/mosfet_off.svg"> </img>
 					<img class="white" style="width: 45%; margin-right: auto; margin-left: 2%; margin-bottom: 0.5em;" src="./figures/mosfet_on.svg"></img>
@@ -208,7 +216,7 @@
 
 			</section>
 
-			<section id="logic_3">
+			<!-- <section id="logic_3">
 
 				<h3> putting it all together </h3>
 				<div style="display:flex; align-items: center;">
@@ -266,7 +274,7 @@
 					<strong> WE MADE A CLASSICAL COMPUTER! </strong>
 				</p>
 
-			</section>
+			</section> -->
 
 			<!-- <section id='half-adder'>
                     <h3> full example -- adding zeros and ones </h3>
@@ -466,7 +474,7 @@
 						What happens when the waiter asks (measures) what you would like?
 					</li>
 					<li class="fragment">
-						Your uncertain order (wavefunction) <strong>collapses</strong> into a single decision.
+						Your uncertain order (superposition) <strong>collapses</strong> into a single decision.
 					</li>
 					<li class="fragment">
 						If this scenario could be recreated over and over -- 50% of the time you choose lamb, 50% lobster
@@ -641,9 +649,16 @@
 						Qubits can be combine to make more complicated superpositions
 					</li>
 					<li>
+						Single atom superposition:
+					<br>
+						$$superposition = a_0 \cdot \downarrow + a_1 \cdot \uparrow$$
+					</li>
+					<li class="fragment">
 						Many atoms forming a single superposition are <strong>entangled</strong>.
 					</li>
 					<li class="fragment">
+						Multiple (3) atom entangled superposition:
+					<br>
 						$$superposition = a_0 \cdot \downarrow\downarrow\downarrow + a_1 \cdot \downarrow\downarrow\uparrow + a_2 \cdot \downarrow\uparrow\downarrow + a_3 \cdot \uparrow\downarrow\downarrow + \\
 						a_4 \cdot \downarrow\uparrow\uparrow + a_5 \cdot \uparrow\downarrow\uparrow + a_6 \cdot \uparrow\uparrow\downarrow + a_7 \cdot \uparrow\uparrow\uparrow$$
 					</li>
@@ -651,7 +666,7 @@
 						We can perform logical gates (if-then statements) on these quantum bits!
 					</li>
 					<li class="fragment">
-						Connect quantum bits with a universal gate (like NAND)
+						Connect quantum bits with a gates (if-then statements, e.g. AND, NAND, XOR, ...)
 					</li>
 					<li class="fragment">
 						<strong>We invented a quantum computer!</strong>
