@@ -1,281 +1,274 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>NERD NITE!</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/league.css">
+	<title>NERD NITE!</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/league.css">
 
-		<!-- Printing and PDF exports -->
-		<!-- <script>
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<!-- <script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script> -->
-	</head>
+</head>
 
-	<body>
-		<div class="reveal">
-			<div class="slides">
+<body>
+	<div class="reveal">
+		<div class="slides">
 
-                <!-- INTRO -->
+			<!-- INTRO -->
 
-                <section  id="title" data-background-image="./figures/ucsb_qubit.jpg">
-					<h1> Quantum Computing </h1>
-                    <p style="font-size: 1em;">
-                        ... from transistors to quantum supremacy
-                    </p>
-					<p style="font-size: 1.2em">
-                        <strong> Nik Hartman, PhD </strong> <br> <br />
-                        <span style="font-size: 0.7em"> https://nikhartman.github.io/NerdNite37 </span>
+			<section id="title" data-background-image="./figures/ucsb_qubit.jpg">
+				<h1> Quantum Computing </h1>
+				<p style="font-size: 1em;">
+					... from transistors to quantum supremacy
+				</p>
+				<p style="font-size: 1.2em">
+					<strong> Nik Hartman, PhD </strong> <br> <br />
+					<span style="font-size: 0.7em"> https://nikhartman.github.io/NerdNite37 </span>
+				</p>
+				<p>
+					Nerd Nite YVR<br>
+					June 20th, 2018
+				</p>
+			</section>
+
+			<section id="outline">
+
+				<h3>Quantum supremacy</h3>
+				<ul>
+					<li>
+						When a <strong>quantum computer</strong> can accomplish something a <strong>classical computer</strong> cannot.
+					</li>
+					<li>
+						Likely to show up in your newsfeed in the next 1-5 years.
+					</li>
+				</ul>
+			</section>
+
+			<section id="hardware_intro">
+				<h3>First -- Let's talk classical computers</h3>
+				<p>
+					All the computer hardware we know and love today is based on the <strong> semiconductor transistor </strong>. </p>
+				</p>
+			</section>
+
+			<!-- <section id="semiconductor-1">
+            <h3> Semi-conductors in a hurry! </h3>
+            <img class="white" style="height: 6.5em; margin-bottom: 0.1em;" src="./figures/band_theory.png"> </img>
+            <img class="white fragment" style="height: 6.5em; margin-top: 0..1em;" src="./figures/semi-conductor_bands.png"> </img>
+        </section> -->
+
+			<section id='mosfet'>
+				<h3> Transistors = Semi-Conductor Juncitons </h3>
+				<div style="text-align: center">
+					<img class="white" style="width: 45%; margin-right: 2%; margin-left: auto; margin-bottom: 0.5em;" src="./figures/mosfet_off.svg"> </img>
+					<img class="white" style="width: 45%; margin-right: auto; margin-left: 2%; margin-bottom: 0.5em;" src="./figures/mosfet_on.svg"></img>
+				</div>
+				<span style="font-size: 1em">
+					<p class="fragment">
+						Now we can do <strong>calculations with binary numbers</strong>!
 					</p>
-                    <p>
-                        Nerd Nite YVR<br>
-                        June 20th, 2018
-                    </p>
-				</section>
+				</span>
+			</section>
 
-                <section  id="outline">
-					<!-- even though I don't love outlines
-                    I want you to keep this in your head throughout
-                    the talk -->
+			<section id='counting'>
+				<h3> Before we do calculations... let's learn to <strong>count</strong> </h3>
 
-                    <h3>Quantum supremacy</h3>
-                    <ul>
-                        <li>
-                            When a <strong>quantum computer</strong> can accomplish something a <strong>classical computer</strong> cannot.
-                        </li>
-                        <li>
-                            Likely to show up in your newsfeed in the next 1-5 years.
-                        </li>
-                    </ul>
-				</section>
+				<div style="display:flex;">
 
-                <section id="hardware_intro">
-                    <h3>First -- Let's talk classical computers</h3>
-                    <p>
-                        All the computer hardware we know and love today is based on the <strong> semiconductor transistor </strong>.                   </p>
-                    </p>
-                </section>
+					<div style="font-size: 0.8em; width: 45%; margin-left: auto; margin-right: 2%;">
+						<img style="width: 100%; margin: auto;" src="./figures/count_0.png"> </img>
 
-                <!-- <section id="semiconductor-1">
-                    <h3> Semi-conductors in a hurry! </h3>
-                    <img class="white" style="height: 6.5em; margin-bottom: 0.1em;" src="./figures/band_theory.png"> </img>
-                    <img class="white fragment" style="height: 6.5em; margin-top: 0..1em;" src="./figures/semi-conductor_bands.png"> </img>
-                </section> -->
+						<img style="width: 100%; margin: auto;" src="./figures/count_1.png"> </img>
+					</div>
+					<div style="font-size: 0.8em; width: 45%; margin-right: auto; margin-left: 2%;">
 
-                <section id='mosfet'>
-                    <h3> Transistors = Semi-Conductor Juncitons </h3>
-                    <div style="text-align: center">
-                        <img class="white" style="width: 45%; margin-right: 2%; margin-left: auto; margin-bottom: 0.5em;"
-                            src="./figures/mosfet_off.svg"> </img>
-                        <img class="white" style="width: 45%; margin-right: auto; margin-left: 2%; margin-bottom: 0.5em;"
-                            src="./figures/mosfet_on.svg"></img>
-                    </div>
-                    <span style="font-size: 1em">
-                        <p class="fragment">
-                            Now we can do <strong>calculations with binary numbers</strong>!
-                        </p>
-                    </span>
-                </section>
+						<table>
+							<thead>
+								<tr>
+									<td><b>$2^2=4$</b></td>
+									<td><b>$2^1=2$</b></td>
+									<td><b>$2^0=1$</b></td>
+									<td><b>SUM</b></td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="fragment">
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td><b>0</b></td>
+								</tr>
+								<tr class="fragment">
+									<td>0</td>
+									<td>0</td>
+									<td>1</td>
+									<td><b>1</b></td>
+								</tr>
+								<tr class="fragment">
+									<td>0</td>
+									<td>1</td>
+									<td>0</td>
+									<td><b>2</b></td>
+								</tr>
+								<tr class="fragment">
+									<td>0</td>
+									<td>1</td>
+									<td>1</td>
+									<td><b>3</b></td>
+								</tr>
+								<tr class="fragment">
+									<td>1</td>
+									<td>0</td>
+									<td>0</td>
+									<td><b>4</b></td>
+								</tr>
+								<tr class="fragment">
+									<td>1</td>
+									<td>0</td>
+									<td>1</td>
+									<td><b>5</b></td>
+								</tr>
+								<tr class="fragment">
+									<td>1</td>
+									<td>1</td>
+									<td>0</td>
+									<td><b>6</b></td>
+								</tr>
+								<tr class="fragment">
+									<td>1</td>
+									<td>1</td>
+									<td>1</td>
+									<td><b>7</b></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+			</section>
 
-                <section id='counting'>
-                    <h3> Before we do calculations... let's learn to <strong>count</strong> </h3>
+			<section id='logic_1'>
+				<h3 style="margin-bottom: 0.1em">
+					Transistors to logic gates (if-then statements)
+				</h3>
 
-                    <div style="display:flex;">
+				<div style="display:flex; align-items: center;">
+					<img class="white" style="height: 14em; margin-left: auto; margin-right: 5%;" src="./figures/and_gate.svg"> </img>
 
-                        <div style="font-size: 0.8em; width: 45%; margin-left: auto; margin-right: 2%;">
-                            <img style="width: 100%; margin: auto;"
-                                src="./figures/count_0.png"> </img>
+					<div style="font-size: 0.8em; width: 60%; margin-right: auto; margin-left: 5%;">
+						<table class="fragment">
+							<th colspan="3"><strong>AND-gate</strong></th>
+							<tr>
+								<th><b>A</b></th>
+								<th><b>B</b></th>
+								<th><b>OUTPUT</b></th>
+							</tr>
+							<tr>
+								<td>0</td>
+								<td>0</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>0</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td>0</td>
+								<td>1</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>1</td>
+								<td>1</td>
+							</tr>
+						</table>
+					</div>
 
-                            <img style="width: 100%; margin: auto;"
-                                src="./figures/count_1.png"> </img>
-                        </div>
-                        <div style="font-size: 0.8em; width: 45%; margin-right: auto; margin-left: 2%;">
+				</div>
+			</section>
 
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <td><b>$2^2=4$</b></td>
-                                        <td><b>$2^1=2$</b></td>
-                                        <td><b>$2^0=1$</b></td>
-                                        <td><b>SUM</b></td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="fragment">
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td><b>0</b></td>
-                                    </tr>
-                                    <tr class="fragment">
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td><b>1</b></td>
-                                    </tr>
-                                    <tr class="fragment">
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td><b>2</b></td>
-                                    </tr>
-                                    <tr class="fragment">
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td><b>3</b></td>
-                                    </tr>
-                                    <tr class="fragment">
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td><b>4</b></td>
-                                    </tr>
-                                    <tr class="fragment">
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td><b>5</b></td>
-                                    </tr>
-                                    <tr class="fragment">
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td><b>6</b></td>
-                                    </tr>
-                                    <tr class="fragment">
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td><b>7</b></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                </section>
+			<section id='logic_2'>
+				<h3>
+					many possible logic gates can be created
+				</h3>
+				<img class="white" style="width: 70%" src="./figures/logic_gates.jpeg"> </img>
 
-                <section id='logic_1'>
-                    <h3 style="margin-bottom: 0.1em">
-                        Transistors to logic gates (if-then statements)
-                    </h3>
+			</section>
 
-                    <div style="display:flex; align-items: center;">
-                        <img class="white" style="height: 14em; margin-left: auto; margin-right: 5%;"
-                            src="./figures/and_gate.svg"> </img>
+			<section id="logic_3">
 
-                        <div style="font-size: 0.8em; width: 60%; margin-right: auto; margin-left: 5%;">
-                            <table class="fragment">
-                                <th colspan="3"><strong>AND-gate</strong></th>
-                                <tr>
-                                    <th><b>A</b></th>
-                                    <th><b>B</b></th>
-                                    <th><b>OUTPUT</b></th>
-                                </tr>
-                                <tr>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                </tr>
-                                <tr>
-                                    <td>0</td>
-                                    <td>1</td>
-                                    <td>0</td>
-                                </tr>
-                                <tr >
-                                    <td>1</td>
-                                    <td>1</td>
-                                    <td>1</td>
-                                </tr>
-                            </table>
-                        </div>
+				<h3> putting it all together </h3>
+				<div style="display:flex; align-items: center;">
 
-                    </div>
-                </section>
+					<ul style="width: 45%; margin-left: auto; margin-right: 2.5%;">
+						<li>
+							NAND gates are <strong> universal </strong>
+						</li>
+						<li class="fragment" data-fragment-index=2>
+							Combine transistors to make NAND gates
+						</li>
+						<li class="fragment" data-fragment-index=3>
+							Combine NAND gates to make all others
+						</li>
+					</ul>
+					<div style="font-size: 0.8em; width: 50%; margin-right: auto; margin-left: 2.5%;">
 
-                <section id='logic_2'>
-                    <h3>
-                        many possible logic gates can be created
-                    </h3>
-                    <img class="white" style="width: 70%" src="./figures/logic_gates.jpeg"> </img>
+						<table class="fragment" data-fragment-index=1>
+							<th colspan="3"><strong>NAND-gate</strong></th>
+							<tr>
+								<th><b>A</b></th>
+								<th><b>B</b></th>
+								<th><b>OUTPUT</b></th>
+							</tr>
+							<tr>
+								<td>0</td>
+								<td>0</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>0</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>0</td>
+								<td>1</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>1</td>
+								<td>0</td>
+							</tr>
+						</table>
 
-                </section>
+						<img class="plain fragment" data-fragment-index=4 src="./figures/AND_from_NAND.svg"> </img>
 
-                <section id="logic_3">
+					</div>
 
-                    <h3> putting it all together </h3>
-                    <div style="display:flex; align-items: center;">
-
-                        <ul style="width: 45%; margin-left: auto; margin-right: 2.5%;">
-                            <li>
-                                NAND gates are <strong> universal </strong>
-                            </li>
-                            <li class="fragment" data-fragment-index=2>
-                                Combine transistors to make NAND gates
-                            </li>
-                            <li class="fragment" data-fragment-index=3>
-                                Combine NAND gates to make all others
-                            </li>
-                        </ul>
-                        <div style="font-size: 0.8em; width: 50%; margin-right: auto; margin-left: 2.5%;">
-
-                            <table class="fragment" data-fragment-index=1>
-                                <th colspan="3"><strong>NAND-gate</strong></th>
-                                <tr>
-                                    <th><b>A</b></th>
-                                    <th><b>B</b></th>
-                                    <th><b>OUTPUT</b></th>
-                                </tr>
-                                <tr>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>1</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>0</td>
-                                    <td>1</td>
-                                </tr>
-                                <tr>
-                                    <td>0</td>
-                                    <td>1</td>
-                                    <td>1</td>
-                                </tr>
-                                <tr >
-                                    <td>1</td>
-                                    <td>1</td>
-                                    <td>0</td>
-                                </tr>
-                            </table>
-
-                            <img class="plain fragment" data-fragment-index=4 src="./figures/AND_from_NAND.svg"> </img>
-
-                        </div>
-
-                    </div>
+				</div>
 
 
-                    <p class="fragment" data-fragment-index=5>
-                        <strong> WE MADE A CLASSICAL COMPUTER! </strong>
-                    </p>
+				<p class="fragment" data-fragment-index=5>
+					<strong> WE MADE A CLASSICAL COMPUTER! </strong>
+				</p>
 
-                </section>
+			</section>
 
-                <!-- <section id='half-adder'>
+			<!-- <section id='half-adder'>
                     <h3> full example -- adding zeros and ones </h3>
 
                     <div style="display:flex; align-items: center;">
@@ -329,18 +322,17 @@
 
                 </section> -->
 
-                <section id='full-adder'>
-                    <p>
-                        <strong>EXAMPLE: </strong> 2 + 3 = ??? (or 010 + 011 = ???)
-                    </p>
-                    <img class="plain" style="height: 12em;"
-                        src="./figures/full_adder.svg"> </img>
-                    <p class="fragment">
-                        2 + 3 = 5
-                    </p>
-                </section>
+			<section id='full-adder'>
+				<p>
+					<strong>EXAMPLE: </strong> 2 + 3 = ??? (or 010 + 011 = ???)
+				</p>
+				<img class="plain" style="height: 12em;" src="./figures/full_adder.svg"> </img>
+				<p class="fragment">
+					2 + 3 = 5
+				</p>
+			</section>
 
-                <!-- <section id='addition'>
+			<!-- <section id='addition'>
                     <h3>adding (cont)</h3>
 
                     <img class="plain fragment" style="width: 75%; margin-top: 1em; margin-bottom: 1em" src="./figures/addition.svg"> </img>
@@ -349,506 +341,519 @@
                     </p>
                 </section> -->
 
-                <section id='simulations'>
-                    <h3> but computers do more than add numbers... </h3>
-                    <ul>
-                        <li>
-                            Many of the hardest computational problems are simulations of nature.
-                        </li>
-                        <li class="fragment">
-                            Often we can be simplify and accept approximate results
-                        </li>
-                        <li class="fragment">
-                            What about <strong>exact</strong> simulations of nature?
-                        </li>
-                        <ul class="fragment">
-                            <li>
-                                To describe nature exactly we need <strong>quantum mechanics</strong>.
-                            </li>
-                        </ul>
-                    </ul>
-                </section>
+			<section id='simulations'>
+				<h3> but computers do more than add numbers... </h3>
+				<ul>
+					<li>
+						Many of the hardest computational problems are simulations of nature.
+					</li>
+					<li class="fragment">
+						Often we can be simplify and accept approximate results
+					</li>
+					<li class="fragment">
+						What about <strong>exact</strong> simulations of nature?
+					</li>
+					<ul class="fragment">
+						<li>
+							To describe nature exactly we need <strong>quantum mechanics</strong>.
+						</li>
+					</ul>
+				</ul>
+			</section>
 
-                <section id="simulation-examples">
-                    <section id="one-example">
+			<section id="simulation-examples">
+				<section id="one-example">
 
-                        <h3>example: interesting (but difficult) simulation </h3>
+					<h3>example: interesting (but difficult) simulation </h3>
 
-                        <div style="display:flex; align-items: center;">
-                            <img class="white" style="width:48%; margin-left: auto; margin-right: 2%;"
-                                src="./figures/random_drug.png"> </img>
+					<div style="display:flex; align-items: center;">
+						<img class="white" style="width:48%; margin-left: auto; margin-right: 2%;" src="./figures/random_drug.png"> </img>
 
-                            <div style="font-size: 0.8em; width: 48%; margin-right: auto; margin-left: 2%;">
-                                <ul>
-                                    <li>
-                                        Simulating molecules for better/safer drugs
-                                    </li>
-                                    <li>
-                                        Quanum mechanics determines molecule shape, interactions, and efficacy
-                                    </li>
-                                </ul>
-                            </div>
+						<div style="font-size: 0.8em; width: 48%; margin-right: auto; margin-left: 2%;">
+							<ul>
+								<li>
+									Simulating molecules for better/safer drugs
+								</li>
+								<li>
+									Quanum mechanics determines molecule shape, interactions, and efficacy
+								</li>
+							</ul>
+						</div>
 
-                        </div>
+					</div>
 
-                    </section>
+				</section>
 
-                    <section id="additional-examples">
+				<section id="additional-examples">
 
-                        <div style="display:flex; align-items: flex-end">
+					<div style="display:flex; align-items: flex-end">
 
-                            <figure style="font-size: 0.6em; width: 50%;">
-                                <img class="white"  src="./figures/fertilizer.jpg"> </img>
-                                <figcaption>
-                                    <ul>
-                                        <li>
-                                            Ammonia molecules and nitrogen fixation processes: $N_2$ --> $NH_3$.
-                                        </li>
-                                        <li>
-                                            Why are plants so much better at this?
-                                        </li>
-                                    </ul>
-                                </figcaption>
-                            </figure>
+						<figure style="font-size: 0.6em; width: 50%;">
+							<img class="white" src="./figures/fertilizer.jpg"> </img>
+							<figcaption>
+								<ul>
+									<li>
+										Ammonia molecules and nitrogen fixation processes: $N_2$ --> $NH_3$.
+									</li>
+									<li>
+										Why are plants so much better at this?
+									</li>
+								</ul>
+							</figcaption>
+						</figure>
 
-                            <figure style="font-size: 0.6em; width: 50%;">
-                                <img class="white"  src="./figures/meissner.jpg"> </img>
-                                <figcaption>
-                                    <ul>
-                                        <li>
-                                            Search for new materials with specific properties
-                                        </li>
-                                        <li>
-                                            Room temperature superconductivity and other (less lofty) goals
-                                        </li>
-                                    </ul>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </section>
-
-
-                </section>
-
-                <section id='act-break'>
-                    <h3> Why is simulating quantum mechanics difficult? </h3>
-                </section>
-
-                <section id='spins'>
-                    <h3> Superposition </h3>
-                    <p>
-                         A fundamental property of the very small world.
-                    </p>
-                    <div style="display:flex; align-items: center;">
-                        <img class="plain fragment" style="width:35%; margin-left: auto; margin-right: 5%;"
-                            src="./figures/spins.svg"> </img>
-
-                        <div style="font-size: 0.8em; width: 55%; margin-right: auto; margin-left: 5%;">
-                            <ul>
-                                <li class="fragment">
-                                    The only results we can measure are $\uparrow$ or $\downarrow$
-                                </li>
-                                <li class="fragment">
-                                    Before measurement it can exist in a combination (<strong>superposition</strong>) of both states.
-                                </li>
-                            </ul>
-                            <p class="fragment">
-                                superposition = $a \cdot \downarrow + b \cdot \uparrow $
-                            </p>
-                            <ul>
-                                <li class="fragment">
-                                    $a$ and $b$ are the probabilities of measuring the atom pointing down or up
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </section>
-
-                <section id='diner' data-background-image="./figures/diner_lobster.png">
-                    <h3> Superposition -- An Analogy*</h3>
-                    <p class="fragment">
-                        superposition = $\frac{1}{2} \cdot LAMB + \frac{1}{2} \cdot LOBSTER $
-                    </p>
-
-                    <ul>
-                        <li class="fragment">
-                            What happens when the waiter asks (measures) what you would like?
-                        </li>
-                        <li class="fragment">
-                            Your uncertain order (wavefunction) <strong>collapses</strong> into a single decision.
-                        </li>
-                        <li class="fragment">
-                            If this scenario could be recreated over and over -- 50% of the time you choose lamb, 50% lobster
-                        </li>
-                    </ul>
-
-                    <p style="font-size: 0.4em; text-align: left">
-                        * without any dead cats
-                    </p>
-                </section>
-
-                <section id='many-bits'>
-                    <h3> more is different -- and may be impossible </h3>
-                    <img class="plain" style="width: 80%;" src="./figures/spin_chain.svg"> </img>
-                    <ul>
-                        <li class="fragment">
-                            A system of N atoms has $2^N$ possible configurations
-                        </li>
-                        <ul>
-                            <li class="fragment">
-                                $ 2 \cdot 2 \cdot 2 \ldots  2 \cdot 2 \cdot 2 = 2^N $
-                            </li>
-                        </ul>
-                        <li class="fragment">
-                            Any simulation must keep track of all of these configurations to determine most probable measurement result
-                        </li>
-                        <li class="fragment">
-                            Adding another atom <strong>doubles</strong> the processing power needed
-                        </li>
-                    </ul>
-                </section>
-
-                <section id='moore'>
-                    <h3> ok.. let's double the processing power! </h3>
-                    <img class="plain" style="width: 70%;" src="./figures/moores_law.svg"> </img>
-                </section>
-
-                <section id="transistor-limits">
-                    <section id="power">
-                        <h3>One limit on this plan</h3>
-
-                        <ul style="font-size: ">
-                            <li class="fragment">
-                                1 billion operations per second => smartphone
-                            </li>
-                            <ul class="fragment">
-                                <li>
-                                    Uses about as much power as an LED light bulb
-                                </li>
-                            </ul>
-                            <li class="fragment">
-                                Today's supercomputers: 100 million-billion ($10^{17}$) operations per second
-                            </li>
-                            <ul>
-                                <li class="fragment">
-                                    About as much power as New York City
-                                </li>
-                                <li class="fragment">
-                                    $2.5 million CAD in electricity per year
-                                </li>
-                            </ul>
-                            <li class="fragment">
-                                That is roughly 1 million billion ($10^{15}$) Joules per year
-                            </li>
-                            <ul>
-                                <li class="fragment">
-                                    World produces about 100 billion billion ($10^{21}$) Joules per year
-                                </li>
-                            </ul>
-                        </ul>
-
-                    </section>
-
-                    <section id='small-transistors'>
-                    <h3> transistor size limits </h3>
-                    <div style="display:flex; align-items: center;">
-
-                        <div style="font-size: 0.8em; width: 48%; margin-left: auto; margin-right: 2%;">
-                            <ul>
-                                <li>
-                                    Modern CPU has 10 billion ($10^{10}$) transistors.
-                                </li>
-                                <li class="fragment">
-                                    Supercomputers use 100,000 processors in parallel.
-                                </li>
-                                <ul>
-                                    <li class="fragment">
-                                        About $10^{15}$ transistors in total.
-                                    </li>
-                                    <li class="fragment">
-                                        Number of cells in 10 people.
-                                    </li>
-                                </ul>
-                            </ul>
-                        </div>
-                        <div style="font-size: 0.8em; width: 48%; margin-left: 2%; margin-right: auto;">
-                            <img class="plain fragment" src="./figures/mosfet_tunneling.svg"> </img>
-                            <ul class="fragment">
-                                <li>
-                                    Probability of electron(s) spontaneously hopping across $\sim e^{-kL}$
-                                </li>
-                                <li>
-                                    L = channel length
-                                </li>
-                                <li>
-                                    k = electron energy
-                                </li>
-                            </ul>
-
-                        </div>
-                    </div>
-
-                </section>
-
-                </section>
-
-                <section id="power-2">
-                    <h3>What do we get for all that power?</h3>
-                    <img class="plain" style="width: 80%;" src="./figures/spin_chain.svg"> </img>
-                    <p class="fragment">
-                        Simulate interactions between <strong>45</strong> atoms
-                    </p>
-                    <p class="fragment">
-                        Using current technology and <strong>all of the world's electricity</strong>, we can get to about <b>70</b> atoms.
-                    </p>
-                </section>
-
-                <section id="feynman">
-                    <h3> Richard Feynman suggests a way out </h3>
-                    <img class="plain" style="width: 60%;" src="./figures/feynman.png"> </img>
-                    <p>
-                        If simulating quantum mechanics on a classical computer is too costly, build a <strong>quantum computer</strong>.
-                    </p>
-                </section>
-
-                <section id='inventing'>
-                    <h3 style="margin-bottom: 0.1em"> Transistors + Quantum Mechanics = <strong>quantum bits</strong> </h3>
-                    <img class="plain" style="width: 70%; margin-top: 0.1em" src="./figures/bloch_sphere.svg"> </img>
-
-                    <div style="display:flex; align-items: flex-start;">
-
-                        <div style="font-size: 0.8em; width: 48%; margin-left: auto; margin-right: 2%;">
-                            <ul>
-                                <li>
-                                    Always 0 or 1
-                                </li>
-                                <li>
-                                    Channel open or closed
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div style="font-size: 0.8em; width: 48%; margin-left: 2%; margin-right: auto;">
-                            <ul>
-                                <li>
-                                    Any superposition of 0 and 1
-                                </li>
-                                <li>
-                                    Atom up or down
-                                </li>
-                            </ul>
-
-                        </div>
-                    </div>
-
-                </section>
-
-                <section id="putting-together">
-                    <h3>A quantum processor needs more than one qubit</h3>
-                    <ul style="font-size: 0.8em">
-                        <li>
-                            Qubits can be combine to make more complicated superpositions
-                        </li>
-                        <li>
-                            Many atoms forming a single superposition are <strong>entangled</strong>.
-                        </li>
-                        <li class="fragment">
-                            $$superposition = a_0 \cdot \downarrow\downarrow\downarrow + a_1 \cdot \downarrow\downarrow\uparrow + a_2 \cdot \downarrow\uparrow\downarrow + a_3 \cdot \uparrow\downarrow\downarrow + \\
-                                a_4 \cdot \downarrow\uparrow\uparrow + a_5 \cdot \uparrow\downarrow\uparrow + a_6 \cdot \uparrow\uparrow\downarrow + a_7 \cdot \uparrow\uparrow\uparrow$$
-                        </li>
-                        <li class="fragment">
-                            We can perform logical gates (if-then statements) on these quantum bits!
-                        </li>
-                        <li class="fragment">
-                            Connect quantum bits with a universal gate (like NAND)
-                        </li>
-                        <li class="fragment">
-                             <strong>We invented a quantum computer!</strong>
-                        </li>
-                    </ul>
-
-                </section>
-
-                <section id="sensible">
-                    <h3> A sensibly sized simulation of nature </h3>
-                    <ul>
-                        <li>
-                            Entangled state of N-qubits is a superposition of all $2^N$ configurations.
-                        </li>
-                        <li class="fragment" style="font-size: 0.8em">
-                            $$superposition = a_0 \cdot \downarrow\downarrow\downarrow + a_1 \cdot \downarrow\downarrow\uparrow + a_2 \cdot \downarrow\uparrow\downarrow + a_3 \cdot \uparrow\downarrow\downarrow + \\
-                                a_4 \cdot \downarrow\uparrow\uparrow + a_5 \cdot \uparrow\downarrow\uparrow + a_6 \cdot \uparrow\uparrow\downarrow + a_7 \cdot \uparrow\uparrow\uparrow$$
-                        </li>
-                        <li class="fragment">
-                            <strong>Quantum computer</strong> needs only N qubits to simulate N quantum mechanical objects.
-                        </li>
-                        <li class="fragment">
-                            About <strong>50 qubits</strong> can do something impossible for a classical computer!
-                        </li>
-                    </ul>
-
-                </section>
-
-                <section id="real-qubits">
-
-                    <section id='qubit-candidates'>
-                        <h3>Real Qubit</h3>
-
-                        <div style="display:flex; align-items: center;">
-                            <img class="white" style="width:48%; margin-left: auto; margin-right: 2%;"
-                                src="./figures/phase_qubit.jpg"> </img>
-
-                            <div style="font-size: 0.8em; width: 48%; margin-right: auto; margin-left: 2%;">
-                                <ul>
-                                    <li>
-                                        <strong>Superconducting Ring</strong>
-                                    </li>
-                                    <ul class="fragment">
-                                        <li>
-                                            CW current = 0
-                                        </li>
-                                        <li>
-                                            CCW current = 1
-                                        </li>
-                                    </ul>
-                                    <li class="fragment">
-                                        Built on pieces of semiconductor
-                                    </li>
-                                    <li class="fragment">
-                                        Easy to connect many qubits
-                                    <ul class="fragment">
-                                        <li>
-                                            Just like connecting many transistors in our classical computer
-                                        </li>
-                                    </ul>
-                            </div>
-
-                        </div>
-
-                    </section>
-
-                    <section id='all-candidates'>
-                        <h3>Real Qubits</h3>
-
-                        <div style="display:flex">
-                            <figure style="font-size: 0.6em; width=50%">
-                                <img class="white"  src="./figures/trapped_ions.JPG"> </img>
-                                <figcaption><strong>Trapped Atom</strong>:<br /> stable, difficult to couple</figcaption>
-                            </figure>
-
-                            <figure style="font-size: 0.6em; width=50%">
-                                <img class="white" src="./figures/phase_qubit.jpg"> </img>
-                                <figcaption><strong>Superconducting Ring</strong>:<br /> not stable, easy to couple</figcaption>
-                            </figure>
-
-                            <figure style="font-size: 0.6em; width=50%">
-                                <img class="white" src="./figures/spin_qubit.png"> </img>
-                                <figcaption><strong>Electron Spins</strong>:<br /> kind of stable, kind of hard to couple</figcaption>
-                            </figure>
-                        </div>
-                    </section>
-                </section>
-
-                <section id='status' data-background-image="./figures/google_fridge.jpg">
-                    <section id="big-three">
-
-                        <h3>Real Quantum Computers</h3>
-
-                        <ul>
-                            <li class="fragment">
-                                Intel -- 49 qubits
-                            </li>
-                            <li class="fragment">
-                                IBM -- 50 qubits
-                            </li>
-                            <li class="fragment">
-                                Google -- 72 qubits
-                            </li>
-
-                            <li class="fragment">
-                                Not quite enough... yet
-                            </li>
-                            <ul>
-                                <li class="fragment">
-                                    Superconducting states stable for around 100 micro-seconds
-                                </li>
-                                <li class="fragment">
-                                    Must stay very cold and isolated from environment
-                                </li>
-                                <li  class="fragment">
-                                    Correcting errors requires additional qubits
-                                </li>
-                                <li  class="fragment">
-                                    Need 100-500 for 50 atom simulation
-                                </li>
-                            </ul>
-                        </ul>
-                    </section>
-
-                    <section id="dwave">
-                        <h3>What about our hometown heros?!</h3>
-                        <p>
-                            D-Wave makes <strong>quantum annealing</strong> processors. Not universal quantum comptuers.
-                        </p>
-                        <img class="plain" style="width: 80%;" src="./figures/spin_chain.svg"> </img>
-                        <ul style="font-size: 0.8em;">
-                            <li class="fragment">
-                                Define interactions between qubits.
-                                <ul>
-                                    <li>
-                                        Example: spins have lower energy when pointed in the same direction as neighbor(s).
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="fragment">
-                                Start with high energy state.
-                            </li>
-                            <li class="fragment">
-                                System evolves to lowest energy state over time.
-                            </li>
-                        </ul>
-
-                    </section>
-
-                </section>
-
-                <section id='close' data-background-image="./figures/google_fridge.jpg">
-                    <h2>stay tuned for quantum supremacy!</h2>
-
-                </section>
+						<figure style="font-size: 0.6em; width: 50%;">
+							<img class="white" src="./figures/meissner.jpg"> </img>
+							<figcaption>
+								<ul>
+									<li>
+										Search for new materials with specific properties
+									</li>
+									<li>
+										Room temperature superconductivity and other (less lofty) goals
+									</li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+				</section>
 
 
-			</div>
+			</section>
+
+			<section id='act-break'>
+				<h3> Why is simulating quantum mechanics difficult? </h3>
+			</section>
+
+			<section id='spins'>
+				<h3> Superposition </h3>
+				<p>
+					A fundamental property of the very small world.
+				</p>
+				<div style="display:flex; align-items: center;">
+					<img class="plain fragment" style="width:35%; margin-left: auto; margin-right: 5%;" src="./figures/spins.svg"> </img>
+
+					<div style="font-size: 0.8em; width: 55%; margin-right: auto; margin-left: 5%;">
+						<ul>
+							<li class="fragment">
+								The only results we can measure are $\uparrow$ or $\downarrow$
+							</li>
+							<li class="fragment">
+								Before measurement it can exist in a combination (<strong>superposition</strong>) of both states.
+							</li>
+						</ul>
+						<p class="fragment">
+							superposition = $a \cdot \downarrow + b \cdot \uparrow $
+						</p>
+						<ul>
+							<li class="fragment">
+								$a$ and $b$ are the probabilities of measuring the atom pointing down or up
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</section>
+
+			<section id='diner' data-background-image="./figures/diner_lobster.png">
+				<h3> Superposition -- An Analogy*</h3>
+				<p class="fragment">
+					superposition = $\frac{1}{2} \cdot LAMB + \frac{1}{2} \cdot LOBSTER $
+				</p>
+
+				<ul>
+					<li class="fragment">
+						What happens when the waiter asks (measures) what you would like?
+					</li>
+					<li class="fragment">
+						Your uncertain order (wavefunction) <strong>collapses</strong> into a single decision.
+					</li>
+					<li class="fragment">
+						If this scenario could be recreated over and over -- 50% of the time you choose lamb, 50% lobster
+					</li>
+				</ul>
+
+				<p style="font-size: 0.4em; text-align: left">
+					* without any dead cats
+				</p>
+			</section>
+
+			<section id='many-bits'>
+				<h3> more is different -- and may be impossible </h3>
+				<img class="plain" style="width: 80%;" src="./figures/spin_chain.svg"> </img>
+				<ul>
+					<li class="fragment">
+						A system of N atoms has $2^N$ possible configurations
+					</li>
+					<ul>
+						<li class="fragment">
+							$ 2 \cdot 2 \cdot 2 \ldots 2 \cdot 2 \cdot 2 = 2^N $
+						</li>
+					</ul>
+					<li class="fragment">
+						Any simulation must keep track of all of these configurations to determine most probable measurement result
+					</li>
+					<li class="fragment">
+						Adding another atom <strong>doubles</strong> the processing power needed
+					</li>
+				</ul>
+			</section>
+
+			<section id='moore'>
+				<h3> ok.. let's double the processing power! </h3>
+				<img class="plain" style="width: 70%;" src="./figures/moores_law.svg"> </img>
+			</section>
+
+			<section id="transistor-limits">
+				<section id="power">
+					<h3>One limit on this plan</h3>
+
+					<ul style="font-size: ">
+						<li class="fragment">
+							1 billion operations per second => smartphone
+						</li>
+						<ul class="fragment">
+							<li>
+								Uses about as much power as an LED light bulb
+							</li>
+						</ul>
+						<li class="fragment">
+							Today's supercomputers: 100 million-billion ($10^{17}$) operations per second
+						</li>
+						<ul>
+							<li class="fragment">
+								About as much power as New York City
+							</li>
+							<li class="fragment">
+								$2.5 million CAD in electricity per year
+							</li>
+						</ul>
+						<li class="fragment">
+							That is roughly 1 million billion ($10^{15}$) Joules per year
+						</li>
+						<ul>
+							<li class="fragment">
+								World produces about 100 billion billion ($10^{21}$) Joules per year
+							</li>
+						</ul>
+					</ul>
+
+				</section>
+
+				<section id='small-transistors'>
+					<h3> transistor size limits </h3>
+					<div style="display:flex; align-items: center;">
+
+						<div style="font-size: 0.8em; width: 48%; margin-left: auto; margin-right: 2%;">
+							<ul>
+								<li>
+									Modern CPU has 10 billion ($10^{10}$) transistors.
+								</li>
+								<li class="fragment">
+									Supercomputers use 100,000 processors in parallel.
+								</li>
+								<ul>
+									<li class="fragment">
+										About $10^{15}$ transistors in total.
+									</li>
+									<li class="fragment">
+										Number of cells in 10 people.
+									</li>
+								</ul>
+							</ul>
+						</div>
+						<div style="font-size: 0.8em; width: 48%; margin-left: 2%; margin-right: auto;">
+							<img class="plain fragment" src="./figures/mosfet_tunneling.svg"> </img>
+							<ul class="fragment">
+								<li>
+									Probability of electron(s) spontaneously hopping across $\sim e^{-kL}$
+								</li>
+								<li>
+									L = channel length
+								</li>
+								<li>
+									k = electron energy
+								</li>
+							</ul>
+
+						</div>
+					</div>
+
+				</section>
+
+			</section>
+
+			<section id="power-2">
+				<h3>What do we get for all that power?</h3>
+				<img class="plain" style="width: 80%;" src="./figures/spin_chain.svg"> </img>
+				<p class="fragment">
+					Simulate interactions between <strong>45</strong> atoms
+				</p>
+				<p class="fragment">
+					Using current technology and <strong>all of the world's electricity</strong>, we can get to about <b>70</b> atoms.
+				</p>
+			</section>
+
+			<section id="feynman">
+				<h3> Richard Feynman suggests a way out </h3>
+				<img class="plain" style="width: 60%;" src="./figures/feynman.png"> </img>
+				<p>
+					If simulating quantum mechanics on a classical computer is too costly, build a <strong>quantum computer</strong>.
+				</p>
+			</section>
+
+			<section id='inventing'>
+				<h3 style="margin-bottom: 0.1em"> Transistors + Quantum Mechanics = <strong>quantum bits</strong> </h3>
+				<img class="plain" style="width: 70%; margin-top: 0.1em" src="./figures/bloch_sphere.svg"> </img>
+
+				<div style="display:flex; align-items: flex-start;">
+
+					<div style="font-size: 0.8em; width: 48%; margin-left: auto; margin-right: 2%;">
+						<ul>
+							<li>
+								Always 0 or 1
+							</li>
+							<li>
+								Channel open or closed
+							</li>
+						</ul>
+					</div>
+
+					<div style="font-size: 0.8em; width: 48%; margin-left: 2%; margin-right: auto;">
+						<ul>
+							<li>
+								Any superposition of 0 and 1
+							</li>
+							<li>
+								Atom up or down
+							</li>
+						</ul>
+
+					</div>
+				</div>
+
+			</section>
+
+			<section id="putting-together">
+				<h3>A quantum processor needs more than one qubit</h3>
+				<ul style="font-size: 0.8em">
+					<li>
+						Qubits can be combine to make more complicated superpositions
+					</li>
+					<li>
+						Many atoms forming a single superposition are <strong>entangled</strong>.
+					</li>
+					<li class="fragment">
+						$$superposition = a_0 \cdot \downarrow\downarrow\downarrow + a_1 \cdot \downarrow\downarrow\uparrow + a_2 \cdot \downarrow\uparrow\downarrow + a_3 \cdot \uparrow\downarrow\downarrow + \\
+						a_4 \cdot \downarrow\uparrow\uparrow + a_5 \cdot \uparrow\downarrow\uparrow + a_6 \cdot \uparrow\uparrow\downarrow + a_7 \cdot \uparrow\uparrow\uparrow$$
+					</li>
+					<li class="fragment">
+						We can perform logical gates (if-then statements) on these quantum bits!
+					</li>
+					<li class="fragment">
+						Connect quantum bits with a universal gate (like NAND)
+					</li>
+					<li class="fragment">
+						<strong>We invented a quantum computer!</strong>
+					</li>
+				</ul>
+
+			</section>
+
+			<section id="sensible">
+				<h3> A sensibly sized simulation of nature </h3>
+				<ul>
+					<li>
+						Entangled state of N-qubits is a superposition of all $2^N$ configurations.
+					</li>
+					<li class="fragment" style="font-size: 0.8em">
+						$$superposition = a_0 \cdot \downarrow\downarrow\downarrow + a_1 \cdot \downarrow\downarrow\uparrow + a_2 \cdot \downarrow\uparrow\downarrow + a_3 \cdot \uparrow\downarrow\downarrow + \\
+						a_4 \cdot \downarrow\uparrow\uparrow + a_5 \cdot \uparrow\downarrow\uparrow + a_6 \cdot \uparrow\uparrow\downarrow + a_7 \cdot \uparrow\uparrow\uparrow$$
+					</li>
+					<li class="fragment">
+						<strong>Quantum computer</strong> needs only N qubits to simulate N quantum mechanical objects.
+					</li>
+					<li class="fragment">
+						About <strong>50 qubits</strong> can do something impossible for a classical computer!
+					</li>
+				</ul>
+
+			</section>
+
+			<section id="real-qubits">
+
+				<section id='qubit-candidates'>
+					<h3>Real Qubit</h3>
+
+					<div style="display:flex; align-items: center;">
+						<img class="white" style="width:48%; margin-left: auto; margin-right: 2%;" src="./figures/phase_qubit.jpg"> </img>
+
+						<div style="font-size: 0.8em; width: 48%; margin-right: auto; margin-left: 2%;">
+							<ul>
+								<li>
+									<strong>Superconducting Ring</strong>
+								</li>
+								<ul class="fragment">
+									<li>
+										CW current = 0
+									</li>
+									<li>
+										CCW current = 1
+									</li>
+								</ul>
+								<li class="fragment">
+									Built on pieces of semiconductor
+								</li>
+								<li class="fragment">
+									Easy to connect many qubits
+									<ul class="fragment">
+										<li>
+											Just like connecting many transistors in our classical computer
+										</li>
+									</ul>
+						</div>
+
+					</div>
+
+				</section>
+
+				<section id='all-candidates'>
+					<h3>Real Qubits</h3>
+
+					<div style="display:flex">
+						<figure style="font-size: 0.6em; width=50%">
+							<img class="white" src="./figures/trapped_ions.JPG"> </img>
+							<figcaption><strong>Trapped Atom</strong>:<br /> stable, difficult to couple</figcaption>
+						</figure>
+
+						<figure style="font-size: 0.6em; width=50%">
+							<img class="white" src="./figures/phase_qubit.jpg"> </img>
+							<figcaption><strong>Superconducting Ring</strong>:<br /> not stable, easy to couple</figcaption>
+						</figure>
+
+						<figure style="font-size: 0.6em; width=50%">
+							<img class="white" src="./figures/spin_qubit.png"> </img>
+							<figcaption><strong>Electron Spins</strong>:<br /> kind of stable, kind of hard to couple</figcaption>
+						</figure>
+					</div>
+				</section>
+			</section>
+
+			<section id='status' data-background-image="./figures/google_fridge.jpg">
+				<section id="big-three">
+
+					<h3>Real Quantum Computers</h3>
+
+					<ul>
+						<li class="fragment">
+							Intel -- 49 qubits
+						</li>
+						<li class="fragment">
+							IBM -- 50 qubits
+						</li>
+						<li class="fragment">
+							Google -- 72 qubits
+						</li>
+
+						<li class="fragment">
+							Not quite enough... yet
+						</li>
+						<ul>
+							<li class="fragment">
+								Superconducting states stable for around 100 micro-seconds
+							</li>
+							<li class="fragment">
+								Must stay very cold and isolated from environment
+							</li>
+							<li class="fragment">
+								Correcting errors requires additional qubits
+							</li>
+							<li class="fragment">
+								Need 100-500 for 50 atom simulation
+							</li>
+						</ul>
+					</ul>
+				</section>
+
+				<section id="dwave">
+					<h3>What about our hometown heros?!</h3>
+					<p>
+						D-Wave makes <strong>quantum annealing</strong> processors. Not universal quantum comptuers.
+					</p>
+					<img class="plain" style="width: 80%;" src="./figures/spin_chain.svg"> </img>
+					<ul style="font-size: 0.8em;">
+						<li class="fragment">
+							Define interactions between qubits.
+							<ul>
+								<li>
+									Example: spins have lower energy when pointed in the same direction as neighbor(s).
+								</li>
+							</ul>
+						</li>
+						<li class="fragment">
+							Start with high energy state.
+						</li>
+						<li class="fragment">
+							System evolves to lowest energy state over time.
+						</li>
+					</ul>
+
+				</section>
+
+			</section>
+
+			<section id='close' data-background-image="./figures/google_fridge.jpg">
+				<h2>stay tuned for quantum supremacy!</h2>
+
+			</section>
+
+
 		</div>
+	</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-                controls: true,
-                progress: true,
-                history: true,
-                center: true,
-                slideNumber: 'h.v',
-                transition: 'slide', // none/fade/slide/convex/concave/zoom
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+			slideNumber: 'h.v',
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-                    { src: 'plugin/math/math.js', async: true }, // MathJax
-                ]
-			});
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					callback: function() {
+						hljs.initHighlightingOnLoad();
+					}
+				},
+				{
+					src: 'plugin/math/math.js',
+					async: true
+				}, // MathJax
+			]
+		});
 
-            // Reveal.addEventListener( 'slidechanged', function( event ) {
-            //     MathJax.Hub.Rerender();
-            // } );
-		</script>
-	</body>
+		// Reveal.addEventListener( 'slidechanged', function( event ) {
+		//     MathJax.Hub.Rerender();
+		// } );
+	</script>
+</body>
+
 </html>
